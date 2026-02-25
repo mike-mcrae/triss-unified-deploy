@@ -3,3 +3,6 @@ TRISS_ENV: render
 TRISS_DATA_DIR: /var/data
 TRISS_QUERY_EMBED_MODEL: all-mpnet-base-v2
 TRISS_CORS_ORIGINS: https://<your-frontend-domain>
+TRISS_BASELINE_URL: https://<host>/triss_baseline.tar.gz
+TRISS_BASELINE_SHA256: <optional_sha256>
+TRISS_BASELINE_TIMEOUT_SECONDS: 1200

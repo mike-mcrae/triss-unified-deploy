@@ -10,7 +10,7 @@ Single deployable folder containing:
 - `app/backend`: FastAPI API
 - `app/frontend`: React/Vite UI
 - `pipeline/scripts/v3`: copied upstream V3 pipeline scripts
-- `pipeline/run_pipeline.py`: deterministic sync/build runner
+- `pipeline/run_pipeline.py`: runtime initializer + baseline/incremental pipeline runner
 - `data/`: runtime contract root (`raw`, `interim`, `final`)
 - `config/`: settings files
 - `ops/`: operational scripts + render blueprint + checks
@@ -27,9 +27,10 @@ Core env vars:
 - `TRISS_ENV` (`local` or `render`)
 - `TRISS_QUERY_EMBED_MODEL`
 - `TRISS_CORS_ORIGINS`
-- `TRISS_SOURCE_SHARED_DATA_DIR`
-- `TRISS_SOURCE_PIPELINE_DIR`
-- `TRISS_SOURCE_REPORT_DIR`
+- `TRISS_BASELINE_URL`
+- `TRISS_BASELINE_SHA256`
+- `TRISS_BASELINE_TIMEOUT_SECONDS`
+- `TRISS_BASELINE_OUTPUT_PATH`
 
 ## Local: build data and run app
 
@@ -43,7 +44,7 @@ pip install -r app/backend/requirements.txt
 cd app/frontend && npm ci && cd ../..
 ```
 
-3. Build/sync runtime artifacts into `data/final`:
+3. Ensure runtime artifacts (bootstraps from remote baseline if needed):
 ```bash
 bash ops/build.sh
 ```
@@ -71,15 +72,25 @@ python -m app.healthcheck
 
 - Use `ops/render.yaml` (Blueprint).
 - Default mode is persistent disk (`/var/data`) on backend + cron service.
-- Set `TRISS_DATA_DIR=/var/data` for backend and cron.
+- Set `TRISS_DATA_DIR=/var/data` and `TRISS_BASELINE_URL` on backend.
 
 ### Re-run pipeline updates
 
 - Cron service runs:
 ```bash
-python pipeline/run_pipeline.py --only sync_profiles,sync_network,sync_publications,sync_analysis,sync_embeddings,sync_report,build_info
+python pipeline/run_pipeline.py --only incremental_researcher_update,build_info
 ```
 - You can also run same command as one-off Render job.
+
+### Baseline workflow
+
+1. Build baseline artifact offline:
+```bash
+python pipeline/run_pipeline.py --only baseline_build,build_info
+```
+2. Upload the generated tarball from `data/interim/baseline/` to remote storage.
+3. Set `TRISS_BASELINE_URL` (and optional `TRISS_BASELINE_SHA256`) in Render.
+4. Backend startup idempotently runs `ensure_runtime_data`; if `final/` exists it skips bootstrap.
 
 ### Where data lives
 
@@ -88,8 +99,8 @@ python pipeline/run_pipeline.py --only sync_profiles,sync_network,sync_publicati
 
 ### How updates appear in app
 
-- After pipeline sync completes, backend reads updated files from `/var/data/final/*`.
-- No path edits are needed; app uses `TRISS_DATA_DIR` only.
+- Backend always reads from `/var/data/final/*`.
+- Startup never hard-fails on empty data; it starts in degraded mode and reports init status in `/api/health`.
 
 ## Large-file safety and checks
 

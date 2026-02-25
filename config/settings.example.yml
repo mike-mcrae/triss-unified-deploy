@@ -5,8 +5,7 @@ TRISS_ENV: local
 TRISS_DATA_DIR: ./data
 TRISS_QUERY_EMBED_MODEL: all-mpnet-base-v2
 TRISS_CORS_ORIGINS: http://localhost:5173,http://localhost:5174,http://localhost:5175,http://127.0.0.1:5173,http://127.0.0.1:5174,http://127.0.0.1:5175
-
-# Source locations used by pipeline/run_pipeline.py sync stages
-TRISS_SOURCE_SHARED_DATA_DIR: ../../1. data
-TRISS_SOURCE_PIPELINE_DIR: ../../triss-pipeline-2026
-TRISS_SOURCE_REPORT_DIR: ../../triss-report-app-v3
+TRISS_BASELINE_URL: https://<host>/triss_baseline.tar.gz
+TRISS_BASELINE_SHA256: <optional_sha256>
+TRISS_BASELINE_TIMEOUT_SECONDS: 1200
+TRISS_BASELINE_OUTPUT_PATH: ./data/interim/baseline/triss_baseline.tar.gz

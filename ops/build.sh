@@ -7,7 +7,7 @@ PYTHON_BIN="${PYTHON_BIN:-python3}"
 
 echo "[build] ROOT_DIR=$ROOT_DIR"
 echo "[build] TRISS_DATA_DIR=$TRISS_DATA_DIR"
-echo "[build] Running pipeline sync..."
+echo "[build] Running runtime pipeline..."
 
 "$PYTHON_BIN" "$ROOT_DIR/pipeline/run_pipeline.py" "$@"
 

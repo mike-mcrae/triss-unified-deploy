@@ -11,6 +11,9 @@ import html
 import re
 import unicodedata
 import os
+import subprocess
+import sys
+import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional, List, Dict, Any, Tuple
@@ -106,6 +109,18 @@ OPENAI_RESEARCHER_EMBED_DIR = FINAL_DIR / "embeddings" / "v3" / "openai" / "by_r
 GLOBAL_CLUSTER_ASSIGNMENTS_PATH = ANALYSIS_GLOBAL_DIR / "global_cluster_assignments.csv"
 GLOBAL_CLUSTER_CENTROIDS_PATH = ANALYSIS_GLOBAL_DIR / "global_cluster_centroids.npy"
 REPORT_V3_PDF_PATH = FINAL_DIR / "report" / "report.pdf"
+RUNTIME_REQUIRED_RELATIVE: List[Path] = [
+    Path("profiles/1. profiles_summary.csv"),
+    Path("profiles/4. triss_researcher_summary.csv"),
+    Path("network/7.researcher_similarity_matrix.csv"),
+    Path("network/8. user_to_other_publication_similarity_openai.csv"),
+    Path("publications/4.All measured publications.csv"),
+    Path("analysis/global/global_cluster_descriptions.json"),
+    Path("analysis/global/global_umap_coordinates.csv"),
+    Path("analysis/global/global_publication_umap_coordinates.csv"),
+    Path("analysis/global/stage3/policy_domains_metadata.json"),
+    Path("report/report.pdf"),
+]
 
 # ---------------------------------------------------------------------
 # MODELS
@@ -249,6 +264,14 @@ report_macro_themes_cache: List[Dict[str, Any]] = []
 report_macro_theme_experts_cache: Dict[int, List[Dict[str, Any]]] = {}
 expert_theme_options_cache: List[Dict[str, Any]] = []
 expert_search_filters_cache: Dict[str, Any] = {"schools": [], "departments_by_school": {}}
+startup_init_status: Dict[str, Any] = {
+    "state": "not_started",
+    "message": "Startup not started.",
+    "loaded": False,
+    "attempted_bootstrap": False,
+    "missing_required_files": [],
+    "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+}
 
 # ---------------------------------------------------------------------
 # HELPERS
@@ -315,7 +338,107 @@ def _titlecase_name(firstname: str, lastname: str) -> str:
 
 def _require_loaded():
     if profiles_df is None:
-        raise HTTPException(status_code=503, detail="Data not loaded yet.")
+        detail = startup_init_status.get("message") or "Data not loaded yet."
+        raise HTTPException(status_code=503, detail=detail)
+
+
+def _missing_runtime_files() -> List[str]:
+    missing: List[str] = []
+    for rel in RUNTIME_REQUIRED_RELATIVE:
+        if not (FINAL_DIR / rel).exists():
+            missing.append(str(rel))
+    return missing
+
+
+def _set_startup_status(
+    state: str,
+    message: str,
+    loaded: bool,
+    attempted_bootstrap: bool,
+    missing_required_files: Optional[List[str]] = None,
+    extra: Optional[Dict[str, Any]] = None,
+) -> None:
+    global startup_init_status
+    payload: Dict[str, Any] = {
+        "state": state,
+        "message": message,
+        "loaded": loaded,
+        "attempted_bootstrap": attempted_bootstrap,
+        "missing_required_files": missing_required_files or [],
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+    }
+    if extra:
+        payload.update(extra)
+    startup_init_status = payload
+    print(f"[startup] {state}: {message}")
+
+
+def _run_runtime_initializer_if_needed() -> List[str]:
+    missing_before = _missing_runtime_files()
+    if not missing_before:
+        _set_startup_status(
+            state="ready",
+            message="Runtime data already present.",
+            loaded=False,
+            attempted_bootstrap=False,
+            missing_required_files=[],
+        )
+        return []
+
+    _set_startup_status(
+        state="initializing",
+        message="Runtime data missing. Attempting baseline initialization.",
+        loaded=False,
+        attempted_bootstrap=True,
+        missing_required_files=missing_before,
+    )
+    cmd = [
+        sys.executable,
+        str(ROOT_DIR / "pipeline" / "run_pipeline.py"),
+        "--only",
+        "ensure_runtime_data,build_info",
+    ]
+    try:
+        result = subprocess.run(
+            cmd,
+            cwd=str(ROOT_DIR),
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=1800,
+        )
+        if result.stdout.strip():
+            print(result.stdout.strip())
+        if result.stderr.strip():
+            print(result.stderr.strip())
+        if result.returncode != 0:
+            _set_startup_status(
+                state="init_failed",
+                message=f"Runtime initializer exited with code {result.returncode}.",
+                loaded=False,
+                attempted_bootstrap=True,
+                missing_required_files=missing_before,
+                extra={"initializer_return_code": result.returncode},
+            )
+    except Exception as exc:
+        _set_startup_status(
+            state="init_failed",
+            message=f"Runtime initializer error: {exc}",
+            loaded=False,
+            attempted_bootstrap=True,
+            missing_required_files=missing_before,
+        )
+
+    missing_after = _missing_runtime_files()
+    if missing_after:
+        _set_startup_status(
+            state="waiting_for_data",
+            message="Runtime data is not ready; service started in degraded mode.",
+            loaded=False,
+            attempted_bootstrap=True,
+            missing_required_files=missing_after,
+        )
+    return missing_after
 
 
 def _safe_int(value: object) -> Optional[int]:
@@ -1540,98 +1663,124 @@ async def load_data():
     global profiles_df, researcher_summary_df, similarity_matrix_df, pub_similarity_df, publications_df, distilled_synthesis
     global umap_coords_df, umap_coords_mpnet_df, pub_umap_coords_df, pub_umap_coords_mpnet_df
     global map_researcher_points_cache, map_v2_researcher_points_cache
+    TRISS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    FINAL_DIR.mkdir(parents=True, exist_ok=True)
     print(f"Loading unified TRISS data from {FINAL_DIR} ...")
-    
-    # 1. Profiles
-    profiles_df = pd.read_csv(PROFILES_DIR / "1. profiles_summary.csv")
-    profiles_df["n_id"] = pd.to_numeric(profiles_df["n_id"], errors="coerce")
-    profiles_df = profiles_df.dropna(subset=["n_id"])
-    profiles_df["n_id"] = profiles_df["n_id"].astype(int)
-    profiles_df["email_norm"] = profiles_df["email"].apply(_norm_text)
-    profiles_df["lastname_clean"] = profiles_df["lastname"].astype(str).str.replace("_", " ", regex=False).str.strip()
-    profiles_df["firstname_clean"] = profiles_df["firstname"].astype(str).str.strip()
-    profiles_df["display_name"] = profiles_df.apply(lambda r: _titlecase_name(r["firstname_clean"], r["lastname_clean"]), axis=1)
-    profiles_df["name_norm"] = profiles_df["display_name"].apply(_norm_text)
 
-    # 2. Researcher Summaries (LLM one-liners)
-    summ_path = PROFILES_DIR / "4. triss_researcher_summary.csv"
-    if summ_path.exists():
-        researcher_summary_df = pd.read_csv(summ_path)
-        researcher_summary_df["n_id"] = researcher_summary_df["n_id"].astype(int)
+    missing_required = _run_runtime_initializer_if_needed()
+    if missing_required:
+        profiles_df = None
+        print("[startup] Skipping data load; required runtime files are missing.")
+        return
 
-    # 3. Themes
-    synth_path = ANALYSIS_GLOBAL_DIR / "triss_distilled_synthesis_v3.json"
-    if synth_path.exists():
-        with open(synth_path, "r") as f:
-            distilled_synthesis = json.load(f)
+    try:
+        # 1. Profiles
+        profiles_df = pd.read_csv(PROFILES_DIR / "1. profiles_summary.csv")
+        profiles_df["n_id"] = pd.to_numeric(profiles_df["n_id"], errors="coerce")
+        profiles_df = profiles_df.dropna(subset=["n_id"])
+        profiles_df["n_id"] = profiles_df["n_id"].astype(int)
+        profiles_df["email_norm"] = profiles_df["email"].apply(_norm_text)
+        profiles_df["lastname_clean"] = profiles_df["lastname"].astype(str).str.replace("_", " ", regex=False).str.strip()
+        profiles_df["firstname_clean"] = profiles_df["firstname"].astype(str).str.strip()
+        profiles_df["display_name"] = profiles_df.apply(lambda r: _titlecase_name(r["firstname_clean"], r["lastname_clean"]), axis=1)
+        profiles_df["name_norm"] = profiles_df["display_name"].apply(_norm_text)
 
-    # 4. Publications (for own-pub retrieval - in pipeline folder)
-    pub_path = PUBLICATIONS_DIR / "4.All measured publications.csv"
-    if pub_path.exists():
-        publications_df = pd.read_csv(pub_path)
-        publications_df["n_id"] = pd.to_numeric(publications_df["n_id"], errors="coerce").fillna(0).astype(int)
-        publications_df["article_id"] = publications_df["article_id"].astype(str)
-        publications_df["title_norm"] = publications_df["Title"].apply(_norm_text) if "Title" in publications_df.columns else ""
-        print(f"Loaded {len(publications_df)} publications with abstracts.")
-    else:
-        fallback_pub_path = PUBLICATIONS_DIR / "3. All listed publications 2019 +.csv"
-        if fallback_pub_path.exists():
-            publications_df = pd.read_csv(fallback_pub_path)
+        # 2. Researcher Summaries (LLM one-liners)
+        summ_path = PROFILES_DIR / "4. triss_researcher_summary.csv"
+        if summ_path.exists():
+            researcher_summary_df = pd.read_csv(summ_path)
+            researcher_summary_df["n_id"] = researcher_summary_df["n_id"].astype(int)
+
+        # 3. Themes
+        synth_path = ANALYSIS_GLOBAL_DIR / "triss_distilled_synthesis_v3.json"
+        if synth_path.exists():
+            with open(synth_path, "r") as f:
+                distilled_synthesis = json.load(f)
+
+        # 4. Publications (for own-pub retrieval - in pipeline folder)
+        pub_path = PUBLICATIONS_DIR / "4.All measured publications.csv"
+        if pub_path.exists():
+            publications_df = pd.read_csv(pub_path)
             publications_df["n_id"] = pd.to_numeric(publications_df["n_id"], errors="coerce").fillna(0).astype(int)
             publications_df["article_id"] = publications_df["article_id"].astype(str)
             publications_df["title_norm"] = publications_df["Title"].apply(_norm_text) if "Title" in publications_df.columns else ""
-            print(f"Loaded {len(publications_df)} publications (no abstracts).")
+            print(f"Loaded {len(publications_df)} publications with abstracts.")
+        else:
+            fallback_pub_path = PUBLICATIONS_DIR / "3. All listed publications 2019 +.csv"
+            if fallback_pub_path.exists():
+                publications_df = pd.read_csv(fallback_pub_path)
+                publications_df["n_id"] = pd.to_numeric(publications_df["n_id"], errors="coerce").fillna(0).astype(int)
+                publications_df["article_id"] = publications_df["article_id"].astype(str)
+                publications_df["title_norm"] = publications_df["Title"].apply(_norm_text) if "Title" in publications_df.columns else ""
+                print(f"Loaded {len(publications_df)} publications (no abstracts).")
 
-    # 5. Similarity Matrix (researcher-level cosine similarities)
-    sim_path = NETWORK_DIR / "7.researcher_similarity_matrix.csv"
-    if sim_path.exists():
-        similarity_matrix_df = pd.read_csv(sim_path, index_col=0)
-        similarity_matrix_df.index = similarity_matrix_df.index.astype(int)
-        similarity_matrix_df.columns = similarity_matrix_df.columns.astype(int)
-        print(f"Loaded similarity matrix: {similarity_matrix_df.shape}")
-    else:
-        print(f"WARNING: similarity matrix not found at {sim_path}")
+        # 5. Similarity Matrix (researcher-level cosine similarities)
+        sim_path = NETWORK_DIR / "7.researcher_similarity_matrix.csv"
+        if sim_path.exists():
+            similarity_matrix_df = pd.read_csv(sim_path, index_col=0)
+            similarity_matrix_df.index = similarity_matrix_df.index.astype(int)
+            similarity_matrix_df.columns = similarity_matrix_df.columns.astype(int)
+            print(f"Loaded similarity matrix: {similarity_matrix_df.shape}")
+        else:
+            print(f"WARNING: similarity matrix not found at {sim_path}")
 
-    # 6. Publication Similarity (query_n_id/target_n_id/title/similarity schema)
-    pub_sim_path = NETWORK_DIR / "8. user_to_other_publication_similarity_openai.csv"
-    if pub_sim_path.exists():
-        print("Loading publication similarity (this may take a moment)...")
-        pub_similarity_df = pd.read_csv(pub_sim_path)
-        pub_similarity_df["query_n_id"] = pub_similarity_df["query_n_id"].astype(int)
-        pub_similarity_df["target_n_id"] = pub_similarity_df["target_n_id"].astype(int)
-        print(f"Loaded pub similarity: {len(pub_similarity_df)} rows")
-    else:
-        print(f"WARNING: pub similarity not found at {pub_sim_path}")
+        # 6. Publication Similarity (query_n_id/target_n_id/title/similarity schema)
+        pub_sim_path = NETWORK_DIR / "8. user_to_other_publication_similarity_openai.csv"
+        if pub_sim_path.exists():
+            print("Loading publication similarity (this may take a moment)...")
+            pub_similarity_df = pd.read_csv(pub_sim_path)
+            pub_similarity_df["query_n_id"] = pub_similarity_df["query_n_id"].astype(int)
+            pub_similarity_df["target_n_id"] = pub_similarity_df["target_n_id"].astype(int)
+            print(f"Loaded pub similarity: {len(pub_similarity_df)} rows")
+        else:
+            print(f"WARNING: pub similarity not found at {pub_sim_path}")
 
-    # 7. UMAP Coordinates
-    umap_path = ANALYSIS_GLOBAL_DIR / "global_umap_coordinates.csv"
-    if umap_path.exists():
-        umap_coords_df = pd.read_csv(umap_path)
-        if "n_id" in umap_coords_df.columns:
-            umap_coords_df["n_id"] = umap_coords_df["n_id"].astype(int)
-    umap_mpnet_path = ANALYSIS_GLOBAL_MPNET_DIR / "global_umap_coordinates.csv"
-    if umap_mpnet_path.exists():
-        umap_coords_mpnet_df = pd.read_csv(umap_mpnet_path)
-        if "n_id" in umap_coords_mpnet_df.columns:
-            umap_coords_mpnet_df["n_id"] = pd.to_numeric(umap_coords_mpnet_df["n_id"], errors="coerce").fillna(0).astype(int)
+        # 7. UMAP Coordinates
+        umap_path = ANALYSIS_GLOBAL_DIR / "global_umap_coordinates.csv"
+        if umap_path.exists():
+            umap_coords_df = pd.read_csv(umap_path)
+            if "n_id" in umap_coords_df.columns:
+                umap_coords_df["n_id"] = umap_coords_df["n_id"].astype(int)
+        umap_mpnet_path = ANALYSIS_GLOBAL_MPNET_DIR / "global_umap_coordinates.csv"
+        if umap_mpnet_path.exists():
+            umap_coords_mpnet_df = pd.read_csv(umap_mpnet_path)
+            if "n_id" in umap_coords_mpnet_df.columns:
+                umap_coords_mpnet_df["n_id"] = pd.to_numeric(umap_coords_mpnet_df["n_id"], errors="coerce").fillna(0).astype(int)
 
-    pub_umap_path = ANALYSIS_GLOBAL_DIR / "global_publication_umap_coordinates.csv"
-    if pub_umap_path.exists():
-        pub_umap_coords_df = pd.read_csv(pub_umap_path)
-    pub_umap_mpnet_path = ANALYSIS_GLOBAL_MPNET_DIR / "global_publication_umap_coordinates.csv"
-    if pub_umap_mpnet_path.exists():
-        pub_umap_coords_mpnet_df = pd.read_csv(pub_umap_mpnet_path)
+        pub_umap_path = ANALYSIS_GLOBAL_DIR / "global_publication_umap_coordinates.csv"
+        if pub_umap_path.exists():
+            pub_umap_coords_df = pd.read_csv(pub_umap_path)
+        pub_umap_mpnet_path = ANALYSIS_GLOBAL_MPNET_DIR / "global_publication_umap_coordinates.csv"
+        if pub_umap_mpnet_path.exists():
+            pub_umap_coords_mpnet_df = pd.read_csv(pub_umap_mpnet_path)
 
-    _build_map_payloads()
-    _build_map_payloads_v2()
-    map_researcher_points_cache = _build_map_researcher_points_for(ANALYSIS_GLOBAL_DIR, umap_coords_df)
-    map_v2_researcher_points_cache = _build_map_researcher_points_for(ANALYSIS_GLOBAL_MPNET_DIR, umap_coords_mpnet_df)
-    _load_expert_search_embeddings()
-    _build_report_payloads()
-    _build_expert_theme_options()
-    _build_expert_search_filters()
-
-    print("Data loading complete.")
+        _build_map_payloads()
+        _build_map_payloads_v2()
+        map_researcher_points_cache = _build_map_researcher_points_for(ANALYSIS_GLOBAL_DIR, umap_coords_df)
+        map_v2_researcher_points_cache = _build_map_researcher_points_for(ANALYSIS_GLOBAL_MPNET_DIR, umap_coords_mpnet_df)
+        _load_expert_search_embeddings()
+        _build_report_payloads()
+        _build_expert_theme_options()
+        _build_expert_search_filters()
+        _set_startup_status(
+            state="loaded",
+            message="Runtime data loaded successfully.",
+            loaded=True,
+            attempted_bootstrap=startup_init_status.get("attempted_bootstrap", False),
+            missing_required_files=[],
+        )
+        print("Data loading complete.")
+    except Exception as exc:
+        profiles_df = None
+        _set_startup_status(
+            state="load_failed",
+            message=f"Runtime data load failed: {exc}",
+            loaded=False,
+            attempted_bootstrap=startup_init_status.get("attempted_bootstrap", False),
+            missing_required_files=_missing_runtime_files(),
+        )
+        print(traceback.format_exc())
+        print("[startup] Continuing without loaded data; endpoints will return 503 until data is ready.")
 
 # ---------------------------------------------------------------------
 # ROUTES: HEALTH
@@ -1643,6 +1792,8 @@ async def health():
         "loaded": profiles_df is not None,
         "triss_data_dir": str(TRISS_DATA_DIR),
         "final_dir": str(FINAL_DIR),
+        "missing_required_files": _missing_runtime_files(),
+        "startup_init_status": startup_init_status,
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
     }
 
