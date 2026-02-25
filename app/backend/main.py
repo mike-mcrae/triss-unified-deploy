@@ -55,6 +55,8 @@ def _load_settings() -> Dict[str, str]:
             "http://127.0.0.1:5173,http://127.0.0.1:5174,http://127.0.0.1:5175"
         ),
         "TRISS_QUERY_EMBED_MODEL": "all-mpnet-base-v2",
+        "TRISS_LOAD_PUB_SIM_ON_STARTUP": "false",
+        "TRISS_PUB_SIM_CHUNK_ROWS": "200000",
     }
     settings = defaults.copy()
     settings.update(local_settings)
@@ -109,6 +111,9 @@ OPENAI_RESEARCHER_EMBED_DIR = FINAL_DIR / "embeddings" / "v3" / "openai" / "by_r
 GLOBAL_CLUSTER_ASSIGNMENTS_PATH = ANALYSIS_GLOBAL_DIR / "global_cluster_assignments.csv"
 GLOBAL_CLUSTER_CENTROIDS_PATH = ANALYSIS_GLOBAL_DIR / "global_cluster_centroids.npy"
 REPORT_V3_PDF_PATH = FINAL_DIR / "report" / "report.pdf"
+PUB_SIM_PATH = NETWORK_DIR / "8. user_to_other_publication_similarity_openai.csv"
+LOAD_PUB_SIM_ON_STARTUP = SETTINGS.get("TRISS_LOAD_PUB_SIM_ON_STARTUP", "false").strip().lower() in ("1", "true", "yes", "on")
+PUB_SIM_CHUNK_ROWS = int(SETTINGS.get("TRISS_PUB_SIM_CHUNK_ROWS", "200000") or "200000")
 RUNTIME_REQUIRED_RELATIVE: List[Path] = [
     Path("profiles/1. profiles_summary.csv"),
     Path("profiles/4. triss_researcher_summary.csv"),
@@ -232,6 +237,7 @@ profiles_df: Optional[pd.DataFrame] = None
 researcher_summary_df: Optional[pd.DataFrame] = None
 similarity_matrix_df: Optional[pd.DataFrame] = None
 pub_similarity_df: Optional[pd.DataFrame] = None
+pub_similarity_pair_cache: Dict[Tuple[int, int], List[Dict[str, Any]]] = {}
 publications_df: Optional[pd.DataFrame] = None
 distilled_synthesis: Dict[str, Any] = {}
 umap_coords_df: Optional[pd.DataFrame] = None
@@ -473,6 +479,56 @@ def _topk_indices(scores: np.ndarray, k: int) -> np.ndarray:
     k = min(k, scores.size)
     idx = np.argpartition(scores, -k)[-k:]
     return idx[np.argsort(scores[idx])[::-1]]
+
+
+def _get_pub_similarity_matches(query_n_id: int, target_n_id: int, limit: int) -> pd.DataFrame:
+    global pub_similarity_pair_cache
+    if limit <= 0:
+        return pd.DataFrame(columns=["query_n_id", "target_n_id", "title", "similarity"])
+
+    if pub_similarity_df is not None:
+        matches = pub_similarity_df[
+            (pub_similarity_df["query_n_id"] == query_n_id)
+            & (pub_similarity_df["target_n_id"] == target_n_id)
+        ].copy()
+        if matches.empty:
+            return matches
+        return matches.sort_values("similarity", ascending=False).drop_duplicates(subset=["title"]).head(limit)
+
+    cache_key = (int(query_n_id), int(target_n_id))
+    cached = pub_similarity_pair_cache.get(cache_key)
+    if cached is not None:
+        return pd.DataFrame(cached).head(limit)
+
+    if not PUB_SIM_PATH.exists():
+        return pd.DataFrame(columns=["query_n_id", "target_n_id", "title", "similarity"])
+
+    matched_chunks: List[pd.DataFrame] = []
+    usecols = ["query_n_id", "target_n_id", "title", "similarity"]
+    for chunk in pd.read_csv(
+        PUB_SIM_PATH,
+        usecols=lambda col: col in usecols,
+        chunksize=max(10000, PUB_SIM_CHUNK_ROWS),
+    ):
+        chunk["query_n_id"] = pd.to_numeric(chunk["query_n_id"], errors="coerce")
+        chunk["target_n_id"] = pd.to_numeric(chunk["target_n_id"], errors="coerce")
+        mask = (chunk["query_n_id"] == query_n_id) & (chunk["target_n_id"] == target_n_id)
+        if mask.any():
+            matched_chunks.append(chunk.loc[mask].copy())
+
+    if not matched_chunks:
+        pub_similarity_pair_cache[cache_key] = []
+        return pd.DataFrame(columns=["query_n_id", "target_n_id", "title", "similarity"])
+
+    matches = pd.concat(matched_chunks, ignore_index=True)
+    matches["similarity"] = pd.to_numeric(matches["similarity"], errors="coerce").fillna(0.0)
+    matches = matches.sort_values("similarity", ascending=False).drop_duplicates(subset=["title"]).head(limit)
+    pub_similarity_pair_cache[cache_key] = matches.to_dict(orient="records")
+    # Bound cache size to avoid growth.
+    if len(pub_similarity_pair_cache) > 1000:
+        first_key = next(iter(pub_similarity_pair_cache.keys()))
+        pub_similarity_pair_cache.pop(first_key, None)
+    return matches
 
 
 def _load_expert_search_embeddings() -> None:
@@ -1724,16 +1780,18 @@ async def load_data():
         else:
             print(f"WARNING: similarity matrix not found at {sim_path}")
 
-        # 6. Publication Similarity (query_n_id/target_n_id/title/similarity schema)
-        pub_sim_path = NETWORK_DIR / "8. user_to_other_publication_similarity_openai.csv"
-        if pub_sim_path.exists():
-            print("Loading publication similarity (this may take a moment)...")
-            pub_similarity_df = pd.read_csv(pub_sim_path)
-            pub_similarity_df["query_n_id"] = pub_similarity_df["query_n_id"].astype(int)
-            pub_similarity_df["target_n_id"] = pub_similarity_df["target_n_id"].astype(int)
-            print(f"Loaded pub similarity: {len(pub_similarity_df)} rows")
+        # 6. Publication Similarity: skip loading into memory by default to stay within small-instance limits.
+        if PUB_SIM_PATH.exists():
+            if LOAD_PUB_SIM_ON_STARTUP:
+                print("Loading publication similarity (startup mode enabled)...")
+                pub_similarity_df = pd.read_csv(PUB_SIM_PATH)
+                pub_similarity_df["query_n_id"] = pub_similarity_df["query_n_id"].astype(int)
+                pub_similarity_df["target_n_id"] = pub_similarity_df["target_n_id"].astype(int)
+                print(f"Loaded pub similarity: {len(pub_similarity_df)} rows")
+            else:
+                print(f"Publication similarity present at {PUB_SIM_PATH}, using lazy chunked reads")
         else:
-            print(f"WARNING: pub similarity not found at {pub_sim_path}")
+            print(f"WARNING: pub similarity not found at {PUB_SIM_PATH}")
 
         # 7. UMAP Coordinates
         umap_path = ANALYSIS_GLOBAL_DIR / "global_umap_coordinates.csv"
@@ -2031,16 +2089,9 @@ async def get_matching_publications(query_n_id: int, target_n_id: int, limit: in
     _require_loaded()
     print(f"API: get_matching_publications {query_n_id} -> {target_n_id}")
     try:
-        if pub_similarity_df is None: return []
-
-        matches = pub_similarity_df[
-            (pub_similarity_df["query_n_id"] == query_n_id) & 
-            (pub_similarity_df["target_n_id"] == target_n_id)
-        ].copy()
-
-        if matches.empty: return []
-
-        matches = matches.sort_values("similarity", ascending=False).drop_duplicates(subset=["title"]).head(limit)
+        matches = _get_pub_similarity_matches(query_n_id, target_n_id, limit)
+        if matches.empty:
+            return []
         
         results = []
         for _, row in matches.iterrows():
@@ -2051,6 +2102,7 @@ async def get_matching_publications(query_n_id: int, target_n_id: int, limit: in
             main_url = None
             abstract = None
             doi = None
+            authors = None
             if publications_df is not None:
                 title_norm = _norm_text(pub_title)
                 # Match on normalised title within target's publications
