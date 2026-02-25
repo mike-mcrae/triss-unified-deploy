@@ -14,6 +14,10 @@ services:
         value: all-mpnet-base-v2
       - key: TRISS_CORS_ORIGINS
         value: https://triss-unified-frontend.onrender.com
+      - key: TRISS_BASELINE_URL
+        sync: false
+      - key: TRISS_BASELINE_SHA256
+        sync: false
     disk:
       name: triss-unified-data
       mountPath: /var/data
@@ -35,18 +39,12 @@ services:
     rootDir: .
     schedule: "0 3 * * 0"
     buildCommand: pip install -r app/backend/requirements.txt
-    startCommand: python pipeline/run_pipeline.py --only sync_profiles,sync_network,sync_publications,sync_analysis,sync_embeddings,sync_report,build_info
+    startCommand: python pipeline/run_pipeline.py --only incremental_researcher_update,build_info
     envVars:
       - key: TRISS_ENV
         value: render
       - key: TRISS_DATA_DIR
         value: /var/data
-      - key: TRISS_SOURCE_SHARED_DATA_DIR
-        sync: false
-      - key: TRISS_SOURCE_PIPELINE_DIR
-        sync: false
-      - key: TRISS_SOURCE_REPORT_DIR
-        sync: false
     disk:
       name: triss-unified-data
       mountPath: /var/data
