@@ -32,20 +32,3 @@ services:
     envVars:
       - key: VITE_API_BASE
         value: https://triss-unified-backend.onrender.com/api
-
-  - type: cron
-    name: triss-unified-pipeline-sync
-    env: python
-    rootDir: .
-    schedule: "0 3 * * 0"
-    buildCommand: pip install -r app/backend/requirements.txt
-    startCommand: python pipeline/run_pipeline.py --only incremental_researcher_update,build_info
-    envVars:
-      - key: TRISS_ENV
-        value: render
-      - key: TRISS_DATA_DIR
-        value: /var/data
-    disk:
-      name: triss-unified-data
-      mountPath: /var/data
-      sizeGB: 20
