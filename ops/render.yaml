@@ -23,7 +23,7 @@ services:
       mountPath: /var/data
       sizeGB: 20
 
-  - type: static
+  - type: web
     name: triss-unified-frontend
     env: static
     rootDir: app/frontend
