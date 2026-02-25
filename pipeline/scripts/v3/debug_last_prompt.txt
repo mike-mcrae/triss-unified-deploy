@@ -1,0 +1,7714 @@
+
+I am looking for a description/abstract for the publication: "**Ethical Issues in the New Digital Era: The Case of Assisting Driving, Ethics, Laws, and Policies for Privacy, Security, and Liability**".
+
+Here is text from a webpage found via search:
+--- START CONTENT ---
+OG Description: PDF | On Feb 17, 2020, Joan Cahill and others published Ethical Issues in the New Digital Era: The Case of Assisting Driving | Find, read and cite all the research you need on ResearchGate
+Meta Description: PDF | On Feb 17, 2020, Joan Cahill and others published Ethical Issues in the New Digital Era: The Case of Assisting Driving | Find, read and cite all the research you need on ResearchGate
+
+
+(PDF) Ethical Issues in the New Digital Era: The Case of Assisting Driving
+Home
+Engineering
+Transportation Engineering
+Automotive Engineering
+Civil Engineering
+Driving
+Chapter
+PDF Available
+Ethical Issues in the New Digital Era: The Case of Assisting Driving
+February 2020
+DOI:
+10.5772/intechopen.88371
+License
+CC BY 3.0
+In book: Ethics, Laws, and Policies for Privacy, Security, and Liability [Working Title]
+Authors:
+Joan Cahill
+Trinity College Dublin
+Katie Crowley
+University of Limerick
+Sam D Cromie
+Trinity College Dublin
+Alison Margaret Kay
+Trinity College Dublin
+Show all 10 authors
+Hide
+Download full-text PDF
+Read full-text
+Download full-text PDF
+Read full-text
+Download citation
+Copy link
+Link copied
+Read full-text
+Download citation
+Copy link
+Link copied
+Figures
+Personae (James).
+…
+Personae (Sam).
+…
+Figures - available via license:
+Creative Commons Attribution 3.0 Unported
+Content may be subject to copyright.
+Discover the world's research
+25+ million members
+160+ million publication pages
+2.3+ billion citations
+Join for free
+Available via license:
+CC BY 3.0
+Content may be subject to copyright.
+Select
+ion of ou
+r books inde
+xed in the Boo
+k Ci
+tation I
+ndex
+in Web of Sci
+ence™ Cor
+e Collect
+ion (BK
+CI)
+Int
+ere
+sted in
+publishing
+with us?
+Contact
+book.
+department@int
+echopen.
+com
+Numbers d
+ispl
+ayed above a
+re based on la
+test data co
+llected
+.
+Fo
+r more in
+forma
+tion visi
+t www.intechope
+n.com
+Open access books a
+vailab
+le
+Count
+ries
+d
+e
+l
+ive
+re
+d
+to
+Contri
+butors from t
+op 500 uni
+versi
+ti
+es
+International
+a
+uthors
+a
+nd
+e
+dit
+or
+s
+Our authors
+a
+re
+am
+ong th
+e
+most ci
+ted scien
+tists
+Downloads
+We are IntechOpen,
+the world’s leading publisher of
+Open Access books
+Built by scientists, for scientists
+12.2%
+119,000
+135M
+TOP 1%
+154
+4,600
+
+Chapter
+Ethical Is
+sues
+in
+the
+New
+Digital
+Era:
+T
+he
+C
+ase
+of
+Assisting Drivin
+g
+Joa
+nCahill, KatieC
+rowley
+, S
+amC
+romie
+, AlisonKay
+,
+Mic
+haelGormley, Eamon
+nKenn
+y, SonjaH
+er
+mma
+n,
+Ciar
+anDoyle, A
+nnHever and R
+obertRoss
+Abstract
+Mobility
+is associated
+with driving a
+vehicle. Ag
+e-related d
+eclines in
+the abilities
+of older persons
+present certain obsta
+cles to safe
+driving. The nega
+tive
+effects of
+driving cessation
+on older adults
+’ physical, mental, cogniti
+ve, and social function-
+ing are
+well reported. A
+utomated driving solutions
+represent a po
+tential solution t
+o
+promoting driv
+er persistence
+and the management o
+f
+fitness to
+drive issues
+in older
+adults.
+Technology
+innovation influence
+s societal values and raise
+s ethical que
+s-
+tions. The
+advancement o
+f
+new driving solution
+s raises
+ove
+rarching que
+stions in
+relation
+to the
+values of society and how
+we design
+technology (a) t
+o promot
+e posi-
+tive
+values around ag
+eing, (b) t
+o enhance agein
+g experience, (
+c) to protect human
+rights, (
+d) to ensure human
+benefit and (e) to
+prior
+itise human
+well-being.
+To this
+end, this chapt
+er revie
+ws the
+relevant ethical consid
+erations in
+relation to assist
+ed
+driving solutions. Further
+, it presen
+ts a
+new ethically
+aligned system conc
+ept for
+assisted driving
+. It is
+argued that human benefit, w
+ell-being and respect f
+or human
+identity
+and rights ar
+e important
+goals f
+or new
+automat
+ed driving tech
+nologies.
+Enabling driv
+er persistence is
+an issue for
+all of
+society and no
+t just old
+er adult.
+Keyw
+ords:
+driv
+erless
+cars, older
+adults, ethics, well-
+being, self-efficacy
+. Introduction
+Mobility
+is defined as
+“the ability
+to move
+oneself (either independentl
+y or using
+assistive
+device or transportation) within
+environments
+that expand fr
+om one’
+s
+home to
+the neighbourhood and regions
+beyond” [].
+The ability to
+move
+about the
+community
+is essential f
+or carrying out the instrumental activitie
+s of daily li
+ving
+(i.e. basic
+life-maintenance
+activities) and ensuring social participation [
+].
+Growth in
+ageing populations is
+a global tr
+end. A recent
+United Nation
+s report
+states
+that the
+number of persons aged 
+ (or old
+er) is expected t
+o grow from
+
+million in 
+
+, to .
+ billion in 
+, and . billion
+in []. Accor
+ding to the Global
+Status R
+epor
+t on R
+oad Safety published b
+y The
+W
+orld Health Organization (WHO
+),
+approximat
+ely .
+ million people
+around the w
+orld die each
+year in traffic a
+cci-
+den
+ts [
+]. The NHTS
+A estimates that
+ of serious crashe
+s are
+due t
+o human e
+rror
+or poor ch
+oices—including distracted dri
+ving and drunk driving [].
+The driving task
+necessitates int
+eracting with the v
+ehicle and the en
+vironment
+at the
+s
+ame time
+. Many bod
+y systems n
+eed to be
+f
+unctional to en
+sure the
+s
+afe
+and
+timely ex
+ecution of the skills req
+uired for
+driving [
+
+]. Spe
+cific factor
+s that
+contribute
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+to maint
+aining a licen
+ce inclu
+de vision, ph
+ysical health and cognitiv
+e health [
+
+].
+Researc
+h indicate
+s that
+cognitiv
+e abilities
+are important
+enabling factors f
+or safe
+driving [
+
+]. R
+esearch also indica
+tes that
+adaptive stra
+tegies are essen
+tial to maintain
+-
+ing the normal par
+ameters o
+f
+driving safety
+in the face o
+f
+illness and disability
+[
+
+].
+Age-rela
+ted declines
+in the abilities o
+f
+older adults
+provide certain o
+bstacles t
+o
+safe dri
+ving. A 
+ survey
+by the OECD f
+ound that  of those  or older
+had
+stopped driving,
+while an
+overwhelming number
+of those who
+continued to driv
+e
+were
+very selectiv
+e about whe
+n they
+did so []. In g
+eneral, driving cessation has
+been linked t
+o increasing age, socioe
+conomic fact
+ors, and declinin
+g function and
+health [
+]. Negative
+effects of driving cessation
+on older adults
+’ physical, mental,
+cognitiv
+e, and social functioning hav
+e been extensi
+vely
+st
+udied [
+
+–
+
+].
+Many a
+utomotive
+companies
+are dev
+eloping and/or te
+sting driver
+less cars.
+Largely
+, the proposed solu
+tions follo
+w established automation
+models such as
+the
+six lev
+els of automation as
+defined by NHTS
+A []. Driv
+er assistance t
+echnology
+presents
+a potential solution t
+o problems
+pertaining to drive
+r persisten
+ce and the
+management
+of
+fitness t
+o drive issu
+es in older a
+dults. As this
+technology is no
+t
+fully implemen
+ted and in use
+by the public, it
+is very diffi
+cult to bo
+th predict
+and
+assess its
+potential ethical implications and im
+pact. Should the purpose
+of
+these
+systems
+go beyond saf
+ety? Is full aut
+omation an appropriate
+solution to eff
+ectivel
+y
+managing the app
+arent c
+onflict betwee
+n two
+goals—() promoting driver
+per-
+sistence
+and () ensuring road saf
+ety? That is, is
+it appropriat
+e to
+enable an older
+driver
+to continue
+driving, ev
+en if there is a
+risk of a serious
+accident
+given their
+medical background?
+With crashe
+s also com
+es the
+question o
+f liability
+. Currently
+,
+lawmaker
+s are considering
+who is
+li
+able
+when an
+autonomous car is
+involv
+ed in an
+accident. Suc
+h discussions raise man
+y comple
+x legal and ethical qu
+estions. Largely
+,
+the liter
+ature around ethics
+and driverless
+cars appears to
+focus on issues
+pertaining
+to (
+) addressing confli
+ct dilemmas on
+the road (machine
+ethics), () privacy and
+() minimising tec
+hnology misuse/cy
+bersecurity
+risks. These
+are indee
+d important
+ethical issues. H
+owever
+, the liter
+ature and public
+debate tends
+to av
+oid other serious
+ethical issues—specifically
+, issues concernin
+g () the int
+ended use and purpose of
+this tec
+hnology
+, () the role
+of the person/
+driver
+(including older adult
+drivers) and
+() is
+sues pertaining t
+o the po
+tential negativ
+e consequenc
+es of this t
+echnology
+.
+In r
+elation to
+(), this con
+cerns the
+social consequences of this t
+echnology and
+the pote
+ntial impact on
+older adult iden
+tity and w
+ell-being. The future
+is indeed
+unknown. The
+advancement o
+f new driving solutions
+raises overar
+ching questions
+in rela
+tion to
+the valu
+es of society an
+d how w
+e design tec
+hnology to: (a
+) promote
+positive
+values around ag
+eing and enhancing ag
+eing experience
+, (b) prot
+ect human
+rights, (
+c) ensure human benefit
+and (d) prioritise well-
+being. Specifically
+, it raises
+fundamental questions
+in relation to
+the value w
+e place on
+promoting autonom
+y
+and social participation f
+or older
+adults and optimisin
+g quality of life/w
+ell-being.
+The public
+opinion on se
+lf-driving cars
+(including solutions f
+or older
+adults) will
+determine
+the exten
+t to
+which people
+will purchase and a
+ccept suc
+h syst
+ems [
+
+]. W
+e
+should not pr
+oceed with this
+technology just beca
+use it is a
+vailable. Critically
+, designers
+must carefully
+consider the human
+dimensions of this t
+echnology and its social impli
+-
+cations.
+T
+o this end, this chapt
+er revie
+ws the
+relevant ethical conside
+rations in
+rela
+-
+tion to
+assisted driving solutions. Further
+, it presents
+a new ethically aligne
+d system
+concept f
+or driver as
+sistance. In
+so doing, it a
+ddresses
+the philosophical princip
+les that
+underlie th
+e proposed drivin
+g system
+concept, and specifically
+, the role of the pe
+rson.
+. Ethics, right
+s, digital ethics and ont
+ological design
+Ethics conc
+erns the
+moral principles that go
+vern a per
+son
+’
+s beha
+viour or how an
+activity is
+conducted [
+
+]. A k
+ey distinction
+in ethics is
+the distinction between
+that
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+which
+is unethical and that
+which is unde
+sirable.
+Primarily
+, moral principles apply
+to a person. H
+owev
+er, m
+oral code can
+also be
+ascribed to the
+behaviour of automat
+ed or intelligent
+systems
+(A/IS). Accordingly
+,
+driver
+less cars
+are termed
+‘artificial moral agents’
+.
+The U
+niver
+sal Declaration o
+f human rights (
+) enshrines all person
+s with
+human rights
+[
+
+]. This include
+s rights
+pertaining to dignity (
+Article ), aut
+onomy
+(Article ), priv
+acy (Article
+
+), and safety
+(Article ) [
+
+]. Some w
+ould argue
+that right
+s also a
+pply to
+technology and artificial agents
+. These are r
+eferred t
+o
+as
+‘transhuman rights’ [
+
+,
+
+].
+To this
+end, the field of roboethics has
+emerged.
+Specifically
+, roboethics is
+concerned with the
+moral behaviour
+of
+humans as
+they
+design, construct, use and tr
+eat artificially intelligen
+t beings.
+More
+broadly
+, ‘
+digital ethics’ or
+‘information ethics
+’ deals with
+the impact of
+digital Information
+and Communication T
+echnologies
+(IC
+T) on our
+societies and
+the en
+vironment
+at larg
+e [
+]. As defined by
+Capurro [
+], it addresses
+the ethical
+implications
+of things whic
+h may
+not yet
+exist, or things
+which
+may hav
+e impacts
+we
+cannot pre
+dict.
+Progress
+is typically defined in
+relation to con
+cepts o
+f advancement
+and
+improv
+ement. As stated by
+the Organization f
+or Economic
+Co-Operation and
+Developme
+nt’
+s (
+OECD) ‘Being ab
+le to
+measure people’
+s quality of life is
+funda
+-
+mental whe
+n assessing the
+progress of societies’ [
+
+]. Future tech
+nolog
+y is
+shaping
+(and will shape) our politi
+cal, social and moral existence
+. The application of ethics
+to qu
+estions concerning tech
+nology dev
+elopment is not
+new
+. In his seminal w
+ork
+‘The Question Conce
+rning T
+echnology’
+, the p
+hilosopher Heid
+egger sugg
+ests that
+in
+asking what
+technology is, w
+e ask questions
+about w
+ho w
+e are []. I
+n so doing, w
+e
+examine the
+nature of existence and human
+autonomy
+[]. Such
+ideas hav
+e led to
+the conc
+ept of ‘
+ontological design
+’ which
+focuses
+on the
+‘the relation
+between
+human
+beings and lif
+eworlds
+’ [
+
+]. As argued by
+Winograd an
+d Flores, new
+technology
+does not
+simply change
+the task, it change
+s wha
+t it mean
+s to
+be human [
+
+]. Put
+simply
+, we
+are designe
+d by our
+designing and by that
+which
+we hav
+e designed [
+
+].
+The Inf
+ormation
+T
+echnology (IT) sector is takin
+g some leaps
+in relation
+to
+addressing the
+se questions
+. Currently
+, there is a lar
+ge f
+ocus on is
+sues pertaining t
+o
+well-
+being, data
+pr
+ivacy
+and cybersecurity
+. In 
+, Amazon, Google, Fa
+cebook,
+IBM, and Microsoft ha
+ve established a
+non-profit partnership
+(i.e. the Partnership
+on Artificial Inte
+lligence
+to Bene
+fit Peop
+le and Society) to
+formulate best
+prac
+-
+tices on
+ar
+tificial intellige
+nce t
+echnologies
+[
+
+]. Further
+, the IEEE Standards
+Association has
+recently
+ar
+ticulated a
+desire to cr
+eate t
+echnology that impro
+ves
+the human
+condition and prioritises
+well-being. Spe
+cifically
+, the ‘IEEE G
+lobal
+Initiativ
+e on Ethics of A
+utonomous and I
+ntelligent S
+ystems
+’ hav
+e defined a set o
+f
+core ethical prin
+ciples f
+or aut
+onomous and int
+elligent s
+ystems (A/IS). As stat
+ed in
+‘Ethically Aligned De
+sign (EAD
+e), A Vision
+for Prioritizing H
+uman W
+ell-being
+with A
+utonomous and I
+ntelligent S
+ystems’ [
+
+]
+‘for exte
+nded intellige
+nce and
+automation
+to provably
+advance a
+specific benefit for
+humanity, the
+re needs
+to be
+clear indicat
+ors of that
+benefit’
+. Further
+, the IEEE Global Initiativ
+e argue tha
+t
+‘the
+world
+’
+s top
+metric of value (G
+ross Domestic
+Product) must mov
+e beyond GDP
+,
+to holisticall
+y measure
+how intelligent
+and autonomous sy
+stems can
+hinder or
+improv
+e human well-
+being’ [
+
+].
+. W
+ell-being, identity
+, quality of life and self
+-
+efficacy
+The concept
+of
+identity
+has three pillars: the
+person, the role and the
+group
+[
+
+]. Personal id
+entity r
+efers
+to the concept
+of the self which dev
+elops over
+time
+and the life-sp
+an. This inc
+ludes
+the aggrega
+te of charact
+eristics by
+which a pe
+rson
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+is recognise
+d by himself/her
+self
+and others, w
+hat matters t
+o the person and th
+eir
+values [
+]. Crucially
+, autonomy
+is central to per
+sonal identity [].
+Accordin
+g to the
+‘Six-fact
+or Model o
+f
+Psychologi
+cal W
+ell-being’
+, six factor
+s
+contribute
+to an
+individual’
+s psyc
+hological well-
+being, contentment, and happine
+ss
+[
+
+]. This
+includes positiv
+e relationships with
+others, personal mastery
+, autonom
+y, a
+feeling o
+f purpose and meaning in lif
+e, and personal gro
+wth and dev
+elopment [
+
+].
+Quality of life
+is inextricably conne
+cted to
+well-bein
+g. As de
+fined by th
+e OECD
+,
+well-
+being can be
+defined/measured in
+relation to (
+) quality of life (i.
+e. health
+status, personal security
+, social connection
+and participation/activity
+, w
+ork/life
+balance, subjectiv
+e well-
+being, envir
+onmental quality
+, etc.), and () material condi-
+tions (i.
+e. income
+and wealth, job
+and earnings and housing) [
+].
+Self-efficacy
+is defined as a
+person’
+s belief in his or her
+own ability to
+accom-
+plishing a task
+or succeeding in specifi
+c situations. One
+’
+s sense of self-effi
+cacy can
+play
+a major role in
+how one approac
+hes goals
+, tasks, and challenges.
+T
+he promo
+tion
+of self-efficacy
+is a key
+element for su
+ccess
+in interv
+entions designed to
+reduce
+depressiv
+e symptoms
+in late
+life [
+
+].
+. Succe
+ssful ageing
+The beginning of old age
+is between th
+e age
+of
+ or 
+ []. Definitions
+of old age ar
+e multi-dimensional and inclu
+de a
+combination o
+f chronological,
+functional and social definitions [
+]. Older adults are
+a highly heter
+ogeneous
+group. Often, o
+lder adult
+s are
+segmented based on
+factors
+such as
+ageing
+phases, lev
+els of fitness, sev
+erity of ph
+ysical limitations, mobility p
+atterns
+and
+social activities. Ac
+cording to
+Rowe and Kah
+n, successful ag
+eing is multidi
+-
+mensional, encompas
+sing the a
+voidance of disease and disability
+, the main
+te
+-
+nance o
+f high phy
+sical and cognitive function, and sustained en
+gagement
+in
+social and productiv
+e activities [
+].
+The prevale
+nce of mental health
+issues is high
+in older adults
+as compared with th
+e
+general population
+[
+
+]. Older adults
+are at risk f
+or dev
+eloping anxiety and depres
+-
+sion, given
+increased frailty
+, medical illnesses and medication
+and the potential for
+loss, redu
+ced social connection and tr
+auma (arisin
+g from injuries/a
+ccidents such
+as
+falls). On the
+other hand, y
+ounger older peop
+le are
+generally
+happier with a stron
+g
+happiness incr
+ease around the age
+of
+ follo
+wed by a ma
+jor decline
+af
+ter  [
+].
+Growth in
+ageing populations is
+a global tr
+end. In J
+apan, Taiw
+an and Singapor
+e,
+gov
+ernments are d
+efining smart agein
+g strategies
+to ensur
+e that
+the growin
+g ageing
+population ag
+es w
+ell. This includes
+the promotion of multi-gene
+rational living,
+awar
+eness o
+f Dementia and other a
+ge-relat
+ed health conditions
+and smar
+t devic
+es
+to monit
+or vital signs
+[].
+.
+Driving task, older adult driv
+ers and health conditions impacting on
+driving
+. Driving task
+The driving is
+not a task isolat
+ed from everyda
+y life. I
+t occurs
+for a purpose (t
+oget t
+o
+somewhere
+, to see the sc
+enery
+, etc.) and is often
+undertaken in parallel
+with other
+activi
+-
+ties (f
+or example
+, talking, listening t
+o the radio, sin
+ging, planning
+-ahead and eating).
+The driving task
+involve
+s a c
+omplex and ra
+pidly repeatin
+g cycle tha
+t requir
+es a
+level o
+f
+skill and the ability
+to interact
+with both
+the v
+ehicle and the external e
+nviron
+-
+men
+t at th
+e sam
+e ti
+me [
+
+]. Information
+about the
+road environment
+is obtained via
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+the visual and a
+uditory sen
+ses. The
+information is operat
+ed on by many
+cognitive
+and behavioural pr
+ocesses
+including short and lon
+g-term
+memory and judgement,
+which
+leads to
+decisions being made
+about driving [
+
+]. Decisions are put
+into e
+ffect
+via the m
+usculoskeletal syst
+em, which acts
+on the st
+eering, gear
+s and brake
+s to
+alter
+the v
+ehicle in rela
+tion to
+the roa
+d [
+
+]. As r
+eported by Fuller
+, the o
+verall pr
+ocess is
+coordinated
+via a com
+plex proc
+ess in
+volving behaviour
+, strategic an
+d tactical abilities
+and personality [
+]. As stated in Fuller’
+s task capability
+model (), loss
+of
+control
+arises w
+hen the
+demand of the driving t
+ask exce
+eds the dri
+ver’
+s capability
+[].
+. Older a
+dult drivers
+It is
+estimated that by
+, a quarte
+r of all drive
+rs will be
+older than  [].
+Further
+, by 
+, more than
+ of
+men o
+ver
+ will be dri
+ving []. Researc
+h
+indicates
+a general increase
+in both
+car acces
+s and licensin
+g rates
+in the o
+lder
+population [
+]. This increase is
+mainly attributable t
+o significant
+increases
+in the
+number of older
+female driver
+s [].
+A number of studies
+hav
+e sought to
+categorise older a
+dults in terms
+of their
+phy
+sical abilities [] their
+economic, geograp
+hic/spatial and activit
+y patterns [
+
+],
+use of cars as
+a transportation mode
+[
+
+], and lif
+estyles and associated req
+uirements
+in rela
+tion to
+transport services [
+]. The most
+nuanced categorisation is
+that of the
+GOAL pr
+ojec
+t w
+hich propose
+s fiv
+e distinctive pr
+ofiles or segments
+of
+older people
+[
+
+].
+The segments take
+demographics, ph
+ysical and mental health
+characteristics,
+social life, livin
+g environmen
+t, mobility
+-related aspects
+and transition points int
+o
+account.
+T
+he fiv
+e profiles diff
+er significantly acc
+ording to
+age and le
+vel of activity/
+mobility and health
+[
+
+]. They include
+.
+•  A younger an
+d more activ
+e profile (“F
+it as a
+Fiddle”)
+•  A young, fit
+and active
+elderly (“Happily
+Connected”)
+•  A young, sev
+erely impaired and im
+mobile elde
+rly (“H
+ole in the
+Heart”).
+•  A very old, highl
+y impaired and immobile segm
+ent (“Care-
+Full”)
+•  A quite mobile and still ind
+ependent se
+nior despite
+his/her old age (“Oldie
+but
+a Goldie
+”)
+. Older ad
+ult driving challenges
+As w
+e age, we
+face decisions as
+to whether
+we
+should () continue, () limit, or
+() stop
+driving. Ag
+e relat
+ed declines in the
+abilities of older adults
+can be treated
+as obstacle
+s
+/barriers to
+safe driving performanc
+e. These
+age-related chang
+es yield
+specific challen
+ges f
+or older adults. As
+reported by Langfor
+d and Koppel [
+
+], this
+includes:
+•  Psychomotor
+f
+unctions: joint flexibilit
+y
+, muscle strength, manual dext
+erity
+and coordination.
+•  Sensory abilities: visual acuity
+, contrast sensiti
+vity
+, sensitivity to
+light, dark
+adaptation, visual field, sp
+ace per
+ception, motion per
+ception, hearing.
+•  Cognitive abilities: fluid in
+telligenc
+e, speed of processing
+, working memory
+,
+problem so
+lving, spatial cognition
+and executive
+f
+unctions like
+inhibition,
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+flexibility and sele
+ctive
+and divided atten
+tion.
+A recent
+s
+tudy
+has identified th
+e prevale
+nt driving err
+ors of older
+adults
+[
+
+]. F
+ollowing a s
+ystematic
+review of the litera
+ture, the a
+uthors categorised the
+prevalent
+driving errors into
+eight categories: (
+) decision-making, () direction
+and lane contr
+ol, () lack
+of regulation compliance
+and awareness
+, () speed
+performance
+, () visual checkin
+g and phy
+sical control, () rec
+ognising and
+responding to
+signs, () recognising and responding t
+o traffic lights
+and ()
+skills in
+volv
+ed in turning and parking. It
+was found that
+() direction and lane
+control, () d
+ecision-making, (
+
+) recognising and re
+sponding to signs
+, and ()
+visual checking and ph
+ysical control w
+ere most
+frequent as pr
+evalent
+issues f
+or
+older drivers
+[
+
+].
+Certain unsafe
+driving behaviours in
+creased in freq
+uency as
+age, with driv
+ers
+of years
+or ov
+er—
+older people
+more likely
+to eng
+age in
+driving behaviours su
+ch
+as () little
+or no sign of attempt
+s to
+avoid danger
+ous driving situations
+, () lack of
+attention
+to othe
+r people an
+d cars, () impr
+oper manoeuvring ar
+ound curves an
+d
+(
+) improper
+or no turn signals [
+
+].
+. Driver
+self-r
+egul
+ation
+Self-regulation
+and
+/or
+compensatory beha
+viour of older a
+dults is
+defined in
+relation
+to the
+tendency of older a
+dults to
+minimise driving under condition
+s that
+are thr
+eatening and/
+or cause discomfort
+and conv
+ersely
+, to restrict their dri
+ving to
+conditions per
+ceive
+d as safe
+and
+/or
+comfortable [
+
+].
+Compensatory
+behaviour
+of older adults
+includes a
+voiding driving in the
+follow-
+ing situations/conditions:
+•  In the dark
+•
+In bad weathe
+r
+•  In heavy
+traffic
+•  In new ar
+eas
+•  On motorway
+s and complex
+road layouts
+•  Av
+oid long journeys (fatigue/tiredn
+ess)
+As state
+d in the Eld
+ersafe
+Report (
+), older road use
+rs need t
+o be a
+ware,
+acknow
+ledge and ha
+ve insight
+into their functional impairments
+in order to
+self-
+regulate [
+
+].
+. Driving cessation
+Health det
+erioration is
+the primary trigger/ke
+y determinan
+t for
+driving cessation
+among older a
+dults [
+
+]. Medical conditions
+either () impact the
+fitness to driv
+e
+of older driv
+ers and/or (
+) an older
+person
+’
+s perceiv
+ed fitness t
+o driv
+e (i.e. attitude
+,
+confidence
+levels, etc.). Sev
+eral medical conditions and associated imp
+airments
+are mor
+e prevale
+nt in
+the older
+adult population
+and are, therefor
+e, associated with
+ageing.
+These medical conditions can
+potentially impact
+the crash
+r
+isk of older
+road
+users [
+
+]. Specifically
+, a systema
+tic revie
+w of the lite
+rature b
+y Marshall ide
+nti-
+fied specific conditions
+including: alcohol abuse and d
+ependence
+, cardiovascular
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+disease, cerebr
+ovascular disease/TBI, depression, dementia, diabetes
+mellitus,
+epilepsy
+, use of certain medications
+, musculoskeletal disord
+ers, schizop
+hrenia,
+obstructive
+sleep apnoea, and vision disorde
+rs [
+
+].
+. Self-driving cars and ethical issu
+es
+The path
+to automate
+d/driv
+erless cars began
+before 
+ with the introd
+uc-
+tion of cruise contr
+ol and antilock brak
+es. Since
+, new saf
+ety f
+eatures suc
+h as
+electronic stabilit
+y contr
+ol, blind spot det
+ec
+tion and collision
+and lane shift warn-
+ings ha
+ve become a
+vailable in v
+ehicles. Further
+, since 
+, automation has
+moved
+towar
+ds partial autonom
+y
+, with fea
+tures that
+enable driver
+s to
+s
+tay
+in lane, along
+with adaptiv
+e cruise control t
+echnology
+, and the ability
+to self-par
+k.
+Automa
+ted driving sy
+s
+tems
+are defined as sy
+s
+tems
+that contr
+ol longitudinal and
+lateral motions
+of the vehicle
+at the same time
+[
+
+]. Self-driving cars use
+a combina-
+tion of sensors, came
+ras, radar
+and artificial intelligence
+(AI) to tra
+vel betw
+een
+destinations
+without a
+human operat
+or
+. The Society of Aut
+omotive Engineer
+s (SAE)
+has defined six
+levels of driving assistan
+ce tec
+hnology (lev
+el –) [].
+•  No aut
+omation
+•  Driver assistanc
+e
+•  Partial automation
+•  Conditional automation
+•  High aut
+omation
+•  Full automation
+In a
+ddition, BASt
+[
+
+] and the N
+ational Highwa
+y Traffic
+Safety Administration
+(NHTSA) [
+] have
+defined equivalent standar
+ds.
+Many a
+utomotive
+companies
+are dev
+eloping and/or te
+sting driver
+less cars. This
+includes
+Audi, BMW
+, Ford, Gener
+al Motors
+, Tes
+la, V
+olk
+swagen
+and V
+olvo. Solutions
+are
+also being ad
+vanced by Google
+and Uber. As
+of 
+, a number o
+f car manufacturers
+hav
+e reached Lev
+el  [
+
+].
+T
+his lev
+el involv
+es an automa
+ted driving sy
+stem (
+ADS) which
+can perform
+all driving tasks under c
+ertain circumstance
+s, such
+as parking the car
+.
+In the
+se circumstanc
+es, the human
+driver must
+be read
+y to re-tak
+e control an
+d is still
+required t
+o be the
+main driver
+of the v
+ehicle [
+
+]. Acc
+ording to
+the
+Vienna
+Convention
+on Roa
+d Traffic (
+), as o
+f 
+, automa
+ted driving te
+chnologies
+will be explicitly
+allowed in
+traffic, provided that these
+technologies ar
+e in c
+onformity
+with the U
+nited
+Nations
+vehicle r
+egulations or can
+be overridden
+or switched off by the
+driver [
+
+].
+As note
+d earlier
+, technology inno
+vation influe
+nces societ
+al values
+and raises
+ethical questions. As
+posed by BMVI, how
+much d
+ependence
+on technologically
+complex
+systems
+will the public acc
+ept to
+achieve, in
+return for
+increased safety
+,
+mobility and c
+onve
+nience [
+]? In relation t
+o the a
+dvancement of assisted dri
+ving
+solutions, Gasser
+distinguishes four
+clusters of issues, (
+) legal issues, () func-
+tional safety is
+sues, () societ
+al issues (in
+cluding issues
+of user acceptability) and
+(
+) human ma
+chine inte
+raction (HMI) issue
+s [
+
+]. A r
+ecent lit
+erature review on
+the ethical, legal and social impli
+cations of the d
+evelopmen
+t, implementation, and
+maturation o
+f connected and autonomous
+vehicles
+(CA
+TV) in the U
+nited States
+groups the
+issues into
+the follo
+wing themes: privacy
+, security
+, licensing, insurance
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+and liability
+, infrastructure and mixed au
+tomation en
+vironment, economic imp
+act,
+workf
+orce disruption, s
+ystem failure/take
+over
+, safety
+algorithm and programming
+ethics, and en
+vironmental impa
+c
+t [
+
+].
+Largely
+, the liter
+ature around ethics
+and driverless
+cars appears to
+focus
+on a su
+bset of important ethical issu
+es. This
+includes issues
+pertaining to ()
+addressing c
+onflict dilemmas
+on the r
+oad, () privacy
+and protecting personal
+sphere, (
+) minimising technology misuse and (
+) the digital self and transhu
+-
+man rights
+. In relation t
+o () operational decisions
+hav
+e moral conseq
+uences
+.
+The issue
+of
+managing conflict dilem
+mas on the
+road poses significant
+chal
+-
+lenges
+for autonomous
+vehi
+cles. As
+outlined in the
+literature
+, operational
+decision making raise
+s many
+serious questions in
+terms of how human
+life is
+valued. Equally
+, such
+solutions raise
+significant ethical questions in
+terms of
+data priv
+acy and the
+sharing of sensitive/private
+information about a
+person’
+s
+health condition
+and potential driving risk.
+The possibility of technology
+hacking is
+also a pot
+ential threat to
+the implemen
+tation of this t
+echnology
+.
+Further
+, issues around defining rig
+hts in
+the cont
+ext of the a
+ugmented self (i.e.
+the mix
+of human rights
+and rights as
+apply to our
+digital self
+which
+is enabled/
+transformed b
+y the r
+each of artificial technology) are real. As
+argued by some,
+we
+may ha
+ve to
+devise a set o
+f ethics that applie
+s to
+the w
+hole continuum
+of our digital self and identity
+. Pote
+ntially
+, the specification o
+f a Univ
+ersal
+Declaration o
+f
+Transhuman
+Rights should underpin
+the dev
+elopment of these
+technologies
+. Data gathered in
+a rece
+nt cross-
+national acceptabilit
+y surve
+ys
+concerning driv
+erless v
+ehicles indicates
+that the abov
+e issues are
+also a signifi
+-
+cant public
+concern [
+
+,
+
+].
+These are
+of
+course im
+portant both ethi
+cal and societal issues. H
+owever
+, the lit-
+erature and pu
+blic deba
+te te
+nds to
+avoid other signifi
+cant issue
+s. This
+includes
+issues
+pertaining to (
+) the purpose
+and intended use
+of
+this te
+chnology
+, () issues ar
+ound
+the role
+of
+the per
+son/driv
+er (including older a
+dult drivers) and (
+) the potential
+negativ
+e consequences
+of
+this tec
+hnology
+, including the social conse
+quences
+of
+this
+technology
+and its impact on
+well-
+being.
+
+. Researc
+h design/methodology
+
+. Objective
+The high-lev
+el objective o
+f
+this researc
+h was
+to specify the r
+equirements
+for a
+new drivin
+g assistance sy
+stem which
+prolongs saf
+e driving for old
+er adults
+with
+different
+ability levels
+, and in so doing, helps
+maintain cognitiv
+e and ph
+ysical
+abilities. Im
+portantly
+, the proposed syst
+em must
+carefully re
+concile the
+potential
+conflict betw
+een () e
+nsuring road safet
+y and () promo
+ting drive
+r persisten
+ce
+(i.e. enab
+ling an older
+driver to
+continue driving, e
+ven
+if there is a
+risk of a
+serious accid
+ent giv
+en the Driv
+ers’ medical background). F
+rom a
+design per
+spec
+-
+tive
+, the challenge w
+as to
+high-tech solution f
+or users who
+are often a
+verse to
+technology.
+
+. High level m
+ethodology
+Overall, this
+research has in
+volved the
+application of human factors
+method
+-
+ologies t
+o the anal
+ysis and specifica
+tion of a proposed dri
+ving assistance system.
+Several phase
+s of research
+have
+been undertake
+n. These ar
+e detailed in
+Appendix
+A.To
+date, this resear
+ch has
+mostly been
+theoretical. Overall, the pr
+oposed
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+driving syst
+em concept
+follows
+a multidisciplinary anal
+ysis of rele
+vant lite
+rature
+pertaining
+to
+•  Older adults and positi
+ve ageing
+•  Segmentation of older ad
+ult driv
+ers
+•
+Driving task and theories
+of driver
+cessation an
+d explanations o
+f
+self-r
+egulation
+•  Automated dri
+ving solutions and ethical issu
+es
+•  The detection/interpretation
+of driver state
+s (i.e
+. physical, cognitiv
+e and emo-
+tional states) using a
+combination of sensor-based tec
+hnology and machine
+learning techniq
+ues
+•  Innovativ
+e human machine
+interaction
+(HMI) communication
+methods
+Further
+, it follows
+the application of Human
+Machine Intera
+ction (HMI) design
+methods inclu
+ding personae-
+based design [
+
+] scenario-based design [
+
+] and
+participatory c
+o-design [
+], to th
+e modelling o
+f a proposed solution. Currentl
+y
+,
+a new
+assisted driving solution has bee
+n defined. A pr
+eliminary w
+orkflow and
+multimodal communications
+concept has been
+specified in relation t
+o sev
+eral dem
+-
+onstration sce
+narios. The
+proposed multimodal solution
+will be further validat
+ed
+using a combina
+tion of co-design t
+echniques and simulat
+or evaluation.
+
+.
+Advancement of per
+sonae and scenarios to specify the sy
+stem conc
+ept and
+HMI design solution
+In line
+with a human fa
+ctors appr
+oach, the pr
+oposed concept
+was mode
+lled
+using both per
+sonae based and sce
+nario-based design
+methods. Driv
+er profiles w
+ere
+segmented from
+the perspective
+of
+drive
+r persisten
+ce, driv
+er health situation and
+ability
+. Overall nine
+driver
+profiles wer
+e identified. This inc
+ludes:
+.
+Older adults
+in optimal health and dri
+ving as normal
+.
+Older adults
+who r
+eg
+ulate th
+eir driving in
+relation
+to managing spe
+cific driving
+challenges
+and/or stressful (difficult) drivin
+g situations
+.
+Older adults
+who ar
+e currently driving but
+have
+a medical condition
+that
+impacts on
+their ability to
+drive
+.
+Continuing driver
+s—
+older a
+dults who ha
+ve continued t
+o drive
+with a pr
+ogress-
+ing condition—but ha
+ve conce
+rns in r
+elation to medical fitnes
+s to
+drive and are
+at risk o
+f
+giving up
+.
+Older adults
+who are curre
+ntly drivin
+g and at risk o
+f
+sudden disablin
+g/medi
+-
+cal even
+t
+.
+Older adults
+who ha
+ve stopped dri
+ving on a
+temporary basis
+.
+Older adults
+who ha
+ve stopped dri
+ving (ex
+-
+driv
+ers) befor
+e it is
+necessary
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+.
+Older adults
+who ha
+ve stopped w
+hen it is nec
+essary
+.
+Older adults
+who ha
+ve nev
+er driven
+a car (ne
+ver
+driver
+s)
+.
+These nine profiles
+reflect ‘ideal ca
+tegories’ based on the
+explicit project goals
+(safety
+, driv
+er persist
+ence, driv
+er experience/enjo
+yment and health sev
+eral
+monitoring).
+These pro
+files w
+ere then decom
+posed into a
+series of personae. Each
+persona
+included inf
+ormation about the old
+er adult
+’
+s goals
+, their ability
+and health, medica-
+tions, typical driving r
+outines, typical driving be
+haviours
+and driver pain-point
+s.
+For
+more inf
+ormation, please see
+Appendix B.
+In par
+allel, sever
+al scenarios w
+ere defined. These
+scenarios follow
+ed from ()
+the project
+goals (i.e. top
+down approach) and, () spe
+cific driving c
+hallenges
+and
+older ad
+ul
+t driv
+er behaviours
+, as identified in
+the literature r
+eview (i.e. bott
+om up
+approach). These
+include:
+.
+Driver is
+enjoying drive—everything going w
+ell
+.
+Driver is
+distracted by their m
+obile phone
+ringing
+.
+Driver f
+eels stressed giv
+en traffic
+delays
+.
+Driver has
+taken pain medica
+tions and is
+drows
+y
+.
+Driver is
+fatigued after long day
+minding grandchildren
+.
+Driver is
+having difficulty parkin
+g (visual judgement)
+.
+Sudden adv
+ent of acute
+medical even
+t
+.
+Driver is
+having difficulty reme
+mbering the corr
+ect route
+.
+Driver has
+taken alcohol and is o
+ver the legal limit
+As indicat
+ed in
+Tab
+le
+
+, the differe
+nt scenarios
+were classified in
+terms of
+interpreta
+tion challeng
+es.
+Followin
+g this, the scenarios w
+ere associated with
+specific user
+profiles
+and
+personae
+(see
+Tabl
+e
+
+).
+Lastly
+, the specific scenarios
+were further decom
+posed in relation to
+() a
+time seque
+nce/text
+narrative, () the
+sensing framework and beha
+viour of sensor
+technology
+and machine learning, and () multi-
+modal communications.
+. Key
+fi
+ndings/results
+. Segmenting older a
+dult drivers and role of new t
+echnology
+Nine
+end user pro
+files ha
+ve
+been iden
+tified—see
+Tab
+l
+e 
+. S
+pecific system g
+oals
+/
+requiremen
+ts are
+associated with differ
+ent pro
+files. It
+is suggested that
+the proposed
+solution migh
+t target
+profiles –
+, and potentially
+profile 
+.
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+Interpretation challeng
+e
+Explanation of the interpretation c
+hallenge
+Scenario examples
+
+Task support/feedback
+Addresses
+driving challenges
+and typical supports required
+Parking support
+Navig
+ational assistance
+Assistance changin
+g lanes
+
+Activation/“flow”
+Incorporate
+s multiple psy
+chological states: stres
+s/anger/
+excitement/workload/engag
+ement
+including driv
+er difficulties and dri
+ver beha
+viour
+Flow/enjoying dri
+ve
+Stress giv
+en traffic delay
+s
+Intelligen
+t driving
+
+Distraction and concurrent
+task
+management
+Addresses
+age-related c
+ognitive and pe
+rceptual challenges
+including driv
+er difficulties and
+driver be
+haviour
+Distraction from mo
+bile phone ringin
+g
+Talking with
+passenger/
+checking GPS
+directions and driving
+
+Fatigue an
+d drowsiness
+Many medical con
+ditions and drugs also manif
+est this way
+Fatigue
+
+Intoxica
+tion—alcohol/drugs/relate
+d
+medical conditions
+Other drugs and some m
+edical conditions manifest
+similarly
+Alcohol
+Prescription drugs
+
+Heart attack/
+stroke
+Addresses
+fear factor—
+which ma
+y discourage older driv
+ers from driving
+H
+ear
+t attack
+Stroke
+Tab
+le  1.
+Interpretation challe
+nges and scenarios.
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+. Driving scenarios and ethical issu
+es
+The differ
+ent driv
+er scenarios as
+defined in
+Tabl
+e
+
+raise a
+myriad of ethical
+questions—in addition
+to legal issues and is
+sues pertaining t
+o societal/user
+accept-
+ability
+. For exam
+ple,
+•  How is the
+human role and w
+ell-being being considered in
+relation to the
+deve
+lopment of these
+systems?
+Interpretation challeng
+e
+Scenario
+Profile
+Persona
+e
+
+Task support/feedback
+Driver needs
+assistance with
+parking
+. Older adults
+who regulate their
+driving in rela
+tion to managin
+g
+specific driving challen
+ges and/
+or stressful (difficult) drivin
+g
+situations (perceiv
+ed safety risk or
+complexity)
+Mary
+
+Activation/flow
+Flow
+. Continuing driv
+ers: older adults
+who ha
+ve con
+tinued to driv
+e with
+a progressin
+g condition, but hav
+e
+concerns in
+relation to medical
+fitness to
+dr
+ive
+and are at risk of
+giving up
+Sarah/James
+Stress
+. Older adults
+who are
+currently
+driving and at risk
+of sudden
+disabling/medical ev
+ent
+Louise
+Intelligen
+t driving
+. Older adults
+who regulate their
+driving in rela
+tion to managin
+g
+specific driving challen
+ges and/
+or stressful (difficult) drivin
+g
+situations (perceiv
+ed safety risk or
+complexity).
+Mary
+
+Fatigue an
+d drowsiness
+Fatigue
+. Older adults
+in optimal health
+and driving as normal
+Elizabeth/Sam
+
+Distraction and
+concurrent tas
+k
+management
+Distraction
+. Older adults
+who regulate their
+driving in rela
+tion to managin
+g
+specific driving challen
+ges and/
+or stressful (difficult) drivin
+g
+situations (perceiv
+ed safety risk or
+complexity)
+Tom
+Concurrent T
+ask
+Management
+. Older a
+dults who
+are currently
+driving but ha
+ve a
+medical
+condition that im
+pacts on th
+eir
+ability to
+drive
+Richard
+
+Intoxica
+tion
+Alcohol
+. Older adults
+in optimal health
+and driving as normal
+Jame
+s
+Prescription drugs
+. Older ad
+ults who
+are currently
+driving and at risk
+of sudden
+disabling/medical ev
+ent
+Rory
+
+Heart attack/
+stroke
+Heart attack
+. Old
+er adults
+who are
+cur
+rently
+driving and at risk
+of sudden
+disabling/medical ev
+ent
+Brian
+Stroke
+. Older ad
+ults who
+are currently
+driving and at risk
+of sudden
+disabling/medical ev
+ent
+Louise
+Tab
+le  2.
+Interpretation c
+hallenges, scenarios
+, u
+ser profiles
+and personae
+.
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+•  What is the
+role of older
+adult and what le
+vel of choice
+do they ha
+ve in r
+elation
+to mod
+e of operation?
+•  What level o
+f
+impairment is
+acceptable for
+an older driv
+er to keep
+driving?
+•
+Should the sy
+stem det
+ermine the leve
+l of automation/assist
+ance, or the
+older adul
+t?
+•  Should the driver
+be able to
+take con
+trol of the car a
+t any
+point?
+•  How is inf
+ormation about the h
+ealth status o
+f the driver
+, their driving c
+hal-
+lenges
+, driving routines
+and any driving ev
+ents being stored?
+•
+Who has acces
+s to
+driver profile
+s, health informa
+tion and inciden
+t information?
+For
+a full list of issues
+, please see
+Appendix C.
+Overall, ther
+e is m
+uch o
+verla
+p betwee
+n ethical issues
+and legal issues. There
+is also
+much
+commonality betw
+een ethical issues an
+d user accept
+ability/societal is
+sues. Further
+,
+
+User profil
+e
+Goals/role of new tec
+hnology
+
+Older adults
+in optimal health and
+driving as normal.
+Driving enabling life-
+long mobility
+Monitor driv
+er’s
+task and driver’
+s capability
+Monitor driv
+er states that im
+pact on driv
+er capability and
+provide task
+assistance to ensure
+safety
+Promote c
+onfidence for
+older driver
+Promote c
+omfortable, enjoyable
+and safe driver expe
+rience
+
+Older adults
+who regulate their
+driving in rela
+tion to addr
+essing
+specific driving challen
+ges
+As () and…
+Te
+chnology directly
+addresses ca
+uses of self-regulation
+
+Older adults
+who are currently
+driving
+but hav
+e a medical condition that
+impacts on
+their ability t
+o drive
+As () and…
+New car
+directly addresses challeng
+es associated with
+condition
+Monitor driv
+er state in re
+lation to spe
+cific medical
+condition, and provide
+task assistance t
+o ensure safety
+
+Continuing driver
+s—older adults
+who ha
+ve con
+tinued to driv
+e with
+a progressin
+g condition—but hav
+e
+concerns in
+relation to medical fitness
+to driv
+e and are at risk of giving up
+As () and…
+New t
+ech might
+monitor conditions
+and provide
+feedback
+—continue with lic
+ence/eviden
+ce, keep saf
+e
+
+Older adults
+who are currently
+driving
+and at risk of sudden
+disabling/
+medical event
+As () and…
+New t
+ech might
+monitor conditions
+and provide feedback
+New t
+ech might
+take rele
+vant action based on
+detection of
+onset of medical eve
+nt
+
+Older adults
+who have
+stopped driving
+on a te
+mporary basis
+As () and…
+Monitor driv
+er state and health condition
+and provide task
+assistance to
+optimise safety
+
+Older adults
+who have
+stopped driving
+(ex-driv
+ers) before it is
+necessary
+As (), (), (), (
+) and ()
+
+Older adults
+who have
+stopped when it
+is necessary
+N/A
+
+Older adults
+who have
+never dri
+ven a
+car (neve
+r driver
+s)
+As () and…
+Motivat
+e to bu
+y car/learn t
+o drive
+, given protections
+provided by
+new car and associated driver
+experience
+Ta
+ble 3.
+User pr
+ofiles and goals
+.
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+many o
+f
+the ethical and societal/user
+acceptability
+issues are also
+HMI/human factors
+issues (f
+or example, handov
+er of control and role o
+f
+the older
+adult in
+the system, etc.).
+In princip
+le, ethical issues
+and issues concerning societal/use
+r accepta
+bility per-
+tain to
+all profiles as de
+fined previously
+. Critically
+, these ethical issue
+s ha
+ve
+meaning
+in the
+context
+of different
+degrees
+of automation. Some issu
+es pertain to the
+specific
+level o
+f
+driving automa
+tion (i.e
+. manual, partially aut
+omated/function specific,
+highly a
+utomated, fully aut
+omated), while
+others present
+to all.
+. Framing th
+e design problem an
+d system o
+bjectives
+The design
+problem is framed in
+relation
+to ad
+vancing systems tha
+t can d
+etect
+the health and ps
+ychological/
+emotional condition of the driv
+er, so
+that the v
+ehicle
+responds as
+appropriate, while
+also ensuring a positiv
+e/enjoy
+able driving e
+xperi-
+ence and pr
+omoting driver self
+-efficacy
+.
+T
+o this end, three
+high level goals
+for the sy
+stem ha
+ve been d
+efined. These are:
+.
+S
+afe
+driving for
+older ad
+ults
+. Driver
+persistence
+.
+Positive
+driver experien
+ce
+Accordin
+gly
+, the requir
+ement is
+to advance
+a system
+which
+can detect
+the health
+and psychological/
+emotional condition of the driv
+er so that
+the v
+ehicle responds as
+appropriate
+(i.e. pr
+omoting engag
+ement/alertness, pro
+viding task supports, taking
+ove
+r the drivin
+g task if the driver is
+impaired and/or calling an
+ambulance).
+.
+Refining syst
+em goals: human benefit and well-being (
+objectives
+and measures)
+It is
+very difficult t
+o both predict and as
+sess the
+potential ethical implica
+tions
+and impact o
+f this technology
+. How
+ever
+, we can d
+ocument ke
+y performance indi
+ca-
+tors (KPI
+s) relevant to
+the pote
+ntial success
+of
+this tec
+hnology once
+it is introduc
+ed
+and used by
+the public.
+
+System go
+al
+Human benefit and w
+ell-being objectives/
+targets (design out
+comes)
+Metric (outcom
+e indicators)
+
+Safe driving
+for olde
+r adult
+s
+Driver fee
+ls safe
+Driver f
+eels in control
+The c
+ar is in a s
+afe st
+ate
+Subjective pe
+rception of safety/
+security
+Objective measur
+e of car safety
+(position
+on road/lane, speed)
+
+Dri
+ver
+persistence
+Car as an enab
+ler of active
+ageing/positive
+ageing—and allied health bene
+fits
+Car contributing to
+eudaemonia (living w
+ell)
+Car contributing to
+a sense of havin
+g a purpose
+Car as an enab
+ler of mobility
+Supporting social connection and participation
+Supporting citizenship, etc.
+Health status
+Mobility status
+Positive
+human functioning and flourishing
+Social capitol
+Personal growth
+
+Dri
+ver
+experience
+Driver f
+eeling happy/enjoying driving activity
+Emotional state/psychological w
+ell-being
+(avoidan
+ce of stress)
+Driver in
+control
+Focus on
+ability (a
+vailable capacity)
+Promote a
+daptation and bricolage
+Subjective e
+njoyment of driving
+Subjective f
+eeling of human agency/
+independence
+Subjective w
+ell-being
+Tab
+le  4.
+System goals, w
+ell-being objectiv
+es and well-bein
+g metrics.
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+As state
+d previously
+, we
+have de
+fined three
+high lev
+el goals for the
+system. These
+goals ha
+ve been r
+eformulated in t
+erms of objectiv
+es concerning human be
+nefit
+and well-
+being and associated measures/KPI’
+s. These
+are described in
+Tabl
+e
+
+. As
+indicated in
+Tab
+l
+e
+
+, there is a r
+elationship across
+goals (), (
+) and (), and the
+associated objectiv
+es and metrics.
+. Pr
+oposed co-pilot/adaptiv
+e automation driving solution
+. Hig
+h level principles underlying sy
+stem conc
+ept
+The third phase
+of
+research
+involv
+ed the specification
+of
+the high-
+level
+system
+logic and associated principles
+associated with
+this concept.
+The high-
+level prin
+ciples associat
+ed with the
+system logic ar
+e grouped in
+to six
+themes as
+follow
+s:
+.
+Philosophy o
+f the system
+.
+Tec
+hnology and the
+conceptualization o
+f the driver
+.
+Tec
+hnology and the
+conceptualization o
+f the driver
+task and driving
+experience
+.
+Driver health
+conditions and emotional/psycho
+logical State
+.
+Detecting symptoms
+with sensors
+.
+Using multi-modal t
+echnology to prom
+ote saf
+e driving and a positiv
+e driving
+experience
+As indicat
+ed in
+Figur
+e 
+, the principles
+associated with () are
+derived from
+related prin
+ciples rela
+ting to (), (), (
+), () and (
+). In addition, the
+principles
+related t
+o () follow
+from an
+understanding of (
+) and feed into
+() and () and so
+forth. Subsequent
+sections focus on
+principles re
+lated to
+() and ().
+. P
+hilosophy
+of the system
+..
+Assistance/
+adaptive autom
+ation (balanci
+ng saf
+e
+ty and driver p
+ersistence/
+quality of life)
+The proposed co-
+pilot syst
+em carefully recon
+ciles the
+potential conflict
+between
+two
+goals—() ensuring road saf
+ety and () pr
+omoting driv
+er persist
+ence (i.
+e.
+enabling an o
+lder driv
+er to continu
+e driving
+, even
+if
+there is
+a risk of a serious ac
+ci-
+dent gi
+ven
+the drivers
+’ medical background). Ov
+erall, the technology
+is designed
+to pr
+ovide diff
+erent leve
+ls of assistance/a
+utomation to dri
+vers
+so that acciden
+ts are
+av
+oided (i.e. safety).
+Three lev
+els of assistance are
+proposed.
+.
+No respon
+se—all seems to
+be in or
+der, the
+driver is alert
+and attentiv
+e, driving
+well; ther
+e is no
+basis for an
+intervention
+.
+Driving assistance—one or more
+driver factor
+s hav
+e been identifie
+d; they are
+not an
+immediate
+threat, but
+the driv
+er could do with
+some assistance
+to drive
+safely
+and/or mana
+ge their
+own emotions. Driving assistan
+ce could tak
+e a
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+range
+of forms:
+•
+An alert to
+the driver
+•
+Adjusting car settings
+•
+Auto-
+braking/speed reduction
+•
+T
+emporary co-pilot in c
+harge
+•
+Task assist
+ance
+•
+Task inf
+ormation
+.
+Safety critical inte
+rvention—the dri
+ver’
+s health and/or
+s
+afety
+are at immediat
+e
+risk; the co-pilot
+needs to make
+a strong interven
+tion. This could in
+clude:
+•
+Auto-
+park and engine
+stop
+•
+External warnings
+to other road user
+s
+•
+Alerts to emergency services
+T
+o this end, we
+are proposing assistance
+(i.e. adaptiv
+e aut
+omation) and not full
+automation. N
+ormally
+, the older
+adult driver
+chooses the
+level of task assistance
+required. H
+owev
+er, th
+e syst
+em also r
+ecommends differen
+t lev
+els of assistance based
+on the
+driver’
+s profile (le
+vel of ability), and real time
+context (i.e
+. driver state
+and
+driver
+behaviour). In particular
+circumstance, if the s
+ystem
+detects tha
+t () the
+driver
+is in a
+seriously impaired stat
+e (i.e. alcohol or
+medications), () there
+is a potential f
+or
+a safety
+critical event, or (
+) the driv
+er is incapacita
+ted, then a
+uthority moves
+to ‘
+auto
+-
+mation
+’
+. According
+ly, the
+proposed co-pilot syst
+em is
+both reacti
+ve
+and predictiv
+e.
+.. Univ
+ersal design
+The syst
+em is d
+esigned to be usable
+, accessible
+, and understood b
+y people
+of all
+ages
+with diffe
+rent a
+bilities and health c
+onditions. T
+o this e
+nd, the sy
+stem/co-pilo
+t
+system
+provides three
+levels of assistance
+, taking into account
+the diverse
+driving
+situations and needs
+of
+differen
+t driv
+ers (including older
+adult driver
+s).
+Figure 1.
+High level princip
+les.
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+.. Positiv
+e ageing and self-efficacy
+The proposed co-
+pilot syst
+em is premised on c
+oncepts o
+f
+successful/positiv
+e
+ageing and self
+-efficacy
+. Although certain conditions
+occur in
+old age (
+and impact
+on the
+driving task), old age
+itself is not a disease. A
+geing (and the associated
+changes
+in functional, sensory and cognitive
+function) is a normal part of life.
+To
+this end, the
+system seeks t
+o normalise
+ageing, and no
+t treat
+ageing as a
+‘problem’ or
+‘
+disease’
+. The
+driving solution (i.e. car
+, sensor sy
+s
+tem, co-pilo
+t and HMI) is d
+esigned
+to optimise
+the abilities and participation
+of older adults
+. That is, it a
+ddresses
+what
+older ad
+ul
+ts can
+do as opposed to
+focusing on d
+eclining capacities
+.
+.. Ability
+, adaption and assistance (
+not automation)
+The co-pilot
+is conceptualised as a
+means/intervention
+to ensure tha
+t older
+adults dri
+ve
+safely
+and for long
+er. Critically
+, the t
+echnology supports
+continued and
+safe dri
+ving for all a
+dults, inclu
+ding those adult
+s at ris
+k of limiting their driving
+and/or gi
+ving up. According
+ly
+, concepts of ability
+, adaption and as
+sistance (as
+opposed to
+vehicle
+automation) underpin the
+system logic.
+T
+o achieve
+this, the
+proposed tech
+nology provid
+es diffe
+rent lev
+els of assistance, tailore
+d to the
+older
+adults (
+) ability, (
+) health and () the
+real-time phy
+sical and psychological/
+emo-
+tional health. In g
+eneral, this will d
+eliver
+benefits for th
+e wider
+population and not
+just older
+adults.
+.. Interpretat
+ion of
+driver profile and r
+eal-time c
+ontext
+The ability
+of the driv
+er to
+perform the driving t
+ask depends
+on the dri
+ver’
+s
+ability (i.
+e. functional, sensory and cognitive), his
+or her driving experienc
+e and
+the
+‘real time’ state o
+f
+the driv
+er (i.e
+. health, level of fatigue, emotional stat
+e, etc.)
+and the operational c
+ontext (i.
+e. cabin context, r
+oad context, w
+eather and traf-
+fic). Thus, t
+o provid
+e target
+ed task support to the
+driver
+, the system
+combines (
+)
+an underst
+anding of the driv
+er’
+s profile (i.
+e. ability
+and driving experience) and
+() an int
+erpretation
+of the real time c
+ontext (i.
+e. the state
+of the driv
+er and the
+operational
+conte
+xt).
+.. Focus on i
+nterpretation c
+hallenges a
+nd not conditions/
+state
+The critical objectiv
+e for the s
+ystem
+is not
+to pre
+cisely diagnose
+the drivers
+’
+condition/stat
+e but to int
+erpret the implication
+s for
+the driving task and the dri
+ver
+.
+Accordin
+g, the drivin
+g assistance s
+ystem
+logic addre
+sses
+‘interpretation c
+hallenges’
+rather than
+the driver c
+ondition or state.
+T
+his is
+achiev
+ed in relation to
+six high-leve
+l
+interpreta
+tion challeng
+es. These
+include.
+.
+Task support/feedback
+.
+Activation/flow
+.
+Distraction and concurrent
+task management
+.
+Fatigue and dr
+owsines
+s
+.
+Intoxication
+.
+Heart attack/
+stroke
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+.. A learni
+ng system will enabl
+e driver persistence a
+nd a positiv
+e driver experience
+Underpin
+ning the sy
+s
+tem
+logic, is a
+vision of the co-
+pilot as
+a learning sy
+stem.
+Arguably
+, a human-centric
+design philosop
+hy
+necessitat
+es continu
+ous learning on
+the behalf of the co-pilot
+(i.e. including AI/
+machine learnin
+g). If the co-pilot
+can
+learn about
+those situations
+and tasks that
+prove challen
+ging and/or
+stressful for the
+older ad
+ul
+t driv
+er (i.e. driving in
+traffic, poor visibility
+, changing lanes, parkin
+g and
+so forth, etc.), then
+it can truly tailor
+the task support that
+it provid
+es to the dri
+ver
+.
+This tailored task
+suppor
+t is
+predictiv
+e/intelligent, en
+suring that the
+driver persists
+in challengin
+g driving situations, w
+hile also enjoying their dri
+ve.
+.
+T
+echnology and the conceptualiz
+ation of the driver
+.. Role of driver in the syst
+e
+m and adap
+tive au
+tomation
+The proposed sy
+s
+tem
+maintains the
+autonomy
+of the individual. In
+principle,
+the driv
+er is able t
+o choose
+(and/or switch o
+ff
+) task support and a
+dvanced lev
+els
+of automation, if they so
+choose. Overall, w
+e are starting from the
+point of the
+engaged dri
+ver
+, who has
+capacity and ability
+. In this
+way
+, the syste
+m supports a
+vision of the old
+er adult
+driver
+as ‘in c
+ontrol’
+. The r
+ole of the driver
+is to wor
+k in
+partnership with
+the ‘
+co-pilot’
+, to achie
+ve
+a safe
+and enjoyable driv
+e. Critically
+, the
+system
+treats the driv
+er as
+‘
+capable’ and ‘in
+charge’ unless it
+detects that the
+driver
+is incapa
+citated and/
+or there
+is a potential f
+or a saf
+ety critical ev
+ent (i.e. lev
+el 
+assistance/saf
+ety critical intervention). I
+f the system
+detects that the
+driver is in
+a seriously
+impaired state and/
+or incapacitated, or
+that a
+safety criti
+cal event
+is
+imminent, then
+the principle
+of
+‘
+driver
+autonomy’ is outw
+eighed by that o
+f
+safety
+.
+In su
+ch cases
+, authority m
+oves
+to ‘
+automation
+’
+.
+.. Driver as a person (holistic approac
+h)
+The proposed drivin
+g assistance sy
+stem is premised on
+a conceptualisation of
+the driv
+er/older a
+dult as a
+person and not a
+set of symptoms/conditions
+(i.e. holistic
+approach). Spe
+cifically
+, biopsychosocial concepts
+of
+health and w
+ellness inform the
+logic of the pr
+oposed driving assistance
+system. The sy
+stem is concern
+ed with all
+aspects of the dri
+ver’
+s wellness
+, including the
+driver’
+s ph
+ysical, social, cognitive an
+d
+emotional health.
+.. Diversity in o
+lder adult popula
+tion
+Critically
+, the driving assistance
+system logic
+is premised on the id
+ea that
+all
+older ad
+ul
+t driv
+ers are not
+the same. Older a
+dult driv
+ers vary in
+many
+way
+s includ-
+ing body
+size and shape, str
+ength, mobility, se
+nsory acuity
+, cognition, emotions
+,
+driving experience
+, driving ability (and challeng
+es) and confidence
+. In relation
+to drivin
+g situation and ability
+, we
+have segm
+ented older
+adults into the
+following
+high-profile
+s or clust
+ers
+—as indicat
+ed previously
+. These
+profiles hav
+e been further
+specified in re
+lation to
+a series of personae. Criticall
+y
+, the system
+logic directly
+addresses
+the needs and requir
+ements of these specific
+personae.
+.. Uphold
+ing rights (a
+utonomy, d
+ig
+nity and privacy)
+The accept
+ability of the pr
+oposed system largel
+y depends
+upon how it tr
+eats
+certain issues
+pertaining to drive
+r rights
+. Overall this
+technology is de
+signed to
+uphold an o
+lder adult
+’
+s rights
+. This is specifically
+salient in relation
+to preserving
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+driver
+autonomy
+, monitoring the
+driver
+state and recordin
+g driver
+heal
+th inf
+or
+-
+mation. As outlined ear
+lier
+, the technology main
+tains the
+autonomy o
+f
+older
+adults (i.
+e. the starting point is
+the engag
+ed driver). Further
+, we are
+proposing
+that inf
+ormation captured about
+the person
+’
+s current health and
+wellness
+and
+driving challeng
+es/ev
+ents is NOT
+shared with other parties
+. In all cases
+, the driver
+is in c
+harge o
+f their own data
+and decisions about ho
+w it is
+stored and shared
+with others
+.
+. Discussion
+.
+ Ontological design, digital ethics and c
+opi
+ng with chang
+e
+As highligh
+ted by
+Fry, the
+introduction of new t
+echnology has
+the potential to
+transform
+what
+it means t
+o be human [
+
+]. In this wa
+y, the
+introduction of new
+assisted driving solutions
+presents a
+challenge
+to our
+being. Design
+decisions are
+normativ
+e—they reflect
+societal values concernin
+g human agen
+cy and human iden-
+tity/a
+voiding ageism. In
+particular
+, they provide
+an opportunity to fost
+er quality
+of
+life f
+or older adults
+as they age
+, and to pr
+omote positi
+ve
+ageing. De
+sign/technology
+teams thus
+exercise choice
+in relation t
+o wha
+t is
+valued and adv
+ancing techn
+ology
+that impr
+oves
+the human condition
+(and not w
+orsens it).
+The discov
+ery and utilisation of fire
+by earl
+y humans
+was of course transforma
+-
+tive
+and positive [
+
+]. It s
+haped how
+we ea
+t, kept w
+arm and how
+we protect
+ed
+ourselve
+s. How
+ever
+, less examined are
+the negative
+by-produ
+cts that
+came with
+fire,
+and the wa
+ys in w
+hich humans may
+or may not
+have a
+dapted to
+them [
+
+]. In
+the
+same wa
+y, it
+is important that d
+esigners c
+onsider issu
+es pertaining to
+potential tech-
+nology impa
+ct in te
+rms of the thr
+ee strands of health and w
+ellness (i.
+e. biological,
+psychological and social health). I
+n particular
+, designers should c
+onsider pro
+tec-
+tions conc
+erning the
+‘unknown’ future
+implications of this techn
+ology (includin
+g
+the pote
+ntial negativ
+e social consequ
+ences).
+In r
+elation to
+the introduction o
+f other consumer an
+d information t
+echnologies
+(for exam
+ple, mobile
+phones and social media
+), many im
+portant questions
+were
+posed ‘post
+hoc’
+. As stat
+ed by H
+eraclitus, ‘One
+cannot step twice
+in the same riv
+er’
+[].
+T
+hese t
+echnologies hav
+e resulted in man
+y changes t
+o previously estab
+lished
+social norms. Arguably
+, social norms in
+relation t
+o identity and priva
+cy and
+associated informa
+tion sharing, ha
+ve appeared t
+o change—and without serious
+questioning of the im
+plications o
+f this. Further
+, in its
+early stag
+e, designers need
+not proper
+ly consider the
+potential social consequ
+ences
+of this technology
+(for
+example, social isolation
+and depression).
+Nonetheles
+s, just beca
+use the hor
+se has bolted (i.e
+. the aut
+omotive industry
+is
+currently
+advancing and t
+esting driverless
+cars), does not mean
+there is nothing
+to be
+achieved and/or
+that we ar
+e powerless
+. As mentioned previously
+, the a
+vail-
+ability of this t
+echnology does not
+mean that w
+e ha
+ve
+no choice
+. Critically,
+we ne
+ed
+to challe
+nge existin
+g design assumption
+s from
+the perspectiv
+e of human benefit,
+well-
+being and rights. I
+n this regard, the
+IEEE Global Initiative r
+epresents a positi
+ve
+step in
+this direction.
+Salganik proposes
+a hope-based and principle-based appr
+oach to mac
+hine
+ethics [
+
+]. This is c
+ontrasted with
+a ‘f
+ear-based and rule-based
+’ approach
+in Social
+Science, and a
+more
+‘ad hoc ethics
+culture’ as e
+merging in dat
+a and comput
+er
+science [
+
+]. Hope
+is not
+enough! As evid
+enced in this
+research, principles ne
+ed to
+be both
+articulated and then e
+mbedded in de
+sign concept
+s. Importantly
+, human
+factors
+methods are
+useful here—in relation to
+considering different
+stakeholders
+and adjudicating betw
+een conflicting goals/principles
+.
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+.
+ Syst
+em purpose and human benefit
+In line
+with what is
+argued by the IEEE, A/IS technologie
+s can be
+narrowly
+conceiv
+ed from an ethical standpoint. Suc
+h tech
+nologies mig
+ht be d
+esigned to
+be
+legal, profitable
+and safe in their
+usage. Ho
+wever
+, they ma
+y not positiv
+ely contrib
+-
+ute t
+o human
+well-
+being [
+
+]. Critically
+, new
+driving solutions s
+hould not ha
+ve
+‘negativ
+e consequences
+on people’
+s men
+tal health, emotions, sense
+of
+themselv
+es,
+their aut
+onomy
+, their ability
+to achiev
+e their goals, and other
+dimensions of
+well-
+being’
+[
+
+].
+Arguably
+, as demonstrat
+ed in this r
+esearch, we can
+define an ethically
+aligned
+design in
+relation to se
+veral k
+ey conc
+epts. This include
+s () human
+role, () human
+benefit, () right
+s, (
+) progress and (
+) well-
+being. These conc
+epts pro
+vide struc-
+turing principles t
+o guide the
+design of new driving assistan
+ce sy
+stems.
+A key
+theme of this r
+esearch has
+been about definin
+g the purpose and r
+ole
+of new driving assistan
+ce tec
+hnologies. As
+designers we
+decide what
+ethical
+guidelines AI in
+autonomous v
+ehicles will follow
+. The analysis
+of relevant health
+literature
+and TILDA data
+has identified specific condition
+s that
+impact on
+older
+adult drivin
+g ability [
+
+]. As such, it has pr
+ovided an empirical basis f
+or address
+-
+ing ethical dilemmas ar
+ound whether full automation
+is an appropriate
+solution
+to eff
+ectively managin
+g the conflict betw
+een two
+goals—namely
+, () promoting
+driver
+persistence and () ensurin
+g road safety
+. It
+is argued that the th
+ree lev
+els
+of driver
+assistance r
+epresent
+an ethically
+aligned solution to enablin
+g older
+driver
+s to
+continue driving, e
+ven
+if there is a
+risk of a serious acciden
+t giv
+en
+their medical bac
+kground. Evide
+ntly
+, some medical conditions
+do not
+negatively
+impact on
+safe driving. H
+owev
+er, ther
+e are other c
+onditions that
+pose chal
+-
+lenges
+to safe driving
+, and others still that make
+it unsafe to
+drive. The
+proposed
+solution is
+designed to
+directly address
+this fact—to
+promote driv
+er persist
+ence
+and enablement
+in these differe
+nt circumstan
+ces, albeit
+while sim
+ultaneously
+maintaining safety
+.
+Human ben
+efit is
+an important g
+oal of
+A/IS, as is re
+spect for
+human rights.
+In t
+erms of rights
+, this includes the
+rights of () older a
+dult drivers
+and () other
+road users
+and pedestrians who ma
+y be negativ
+ely affected b
+y older adult
+driving
+challenges
+and specifically
+, heal
+th ev
+ents such
+as strokes
+and heart attacks. The
+specification o
+f benefits is no
+t straight
+forward. Peop
+le benefit
+differently
+. Also,
+benefits ar
+e not alway
+s equal for all people
+, as driving system
+that benefit
+s older
+adults m
+ust also bene
+fit other
+road users and pedestrians. I
+n this wa
+y
+, the proposed
+system
+must be ve
+rifiably saf
+e and secure
+. W
+e must e
+nsure the
+safety of all drivers
+and pedestrians. Benefit
+s in r
+elation to older
+adult mobility must
+not outweigh
+safety c
+oncerns (i.
+e. we cann
+ot addre
+ss benefit
+from a narrow
+perspective/prioritise
+one stakeh
+older).
+. Design pr
+oblem and ethical vision: ena
+blement and positiv
+e ageing
+The design
+problem—prolonging safe
+driving for
+older ad
+ults is frame
+d in
+relation
+to a
+philosoph
+y of ‘
+enablement
+’ and positive
+models of ageing. Crucially
+,
+the proposed
+vision of ‘t
+echnology progress
+’ in closely
+intertwined with concepts
+of progress fr
+om a societ
+al values
+perspectiv
+e. The
+proposed co-pilot
+system is
+premised on c
+oncepts o
+f successful/positive
+ageing and self-effica
+cy
+. The syste
+m
+seeks to
+normalise ageing, and not
+treat ageing as
+a ‘problem
+’ or ‘
+disease’
+. The
+driving solution (i.
+e. car
+, sensor syst
+em, co-pilot and human machin
+e interfa
+ce)
+is designed t
+o optimise the abilities
+and participation of older adults
+. That is, it
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+recognises
+what
+older ad
+ults can d
+o as oppose
+d to f
+ocusing on declinin
+g capaci
+-
+ties. Further
+, the co-pilot
+is conceptualised as
+a means/intervention
+to ensur
+e
+that older
+adults drive
+safely and for
+longer
+. The pr
+oposed technology
+suppor
+ts
+continued and saf
+e driving f
+or all adults, including those
+adults at risk
+of
+limiting
+their driving and/
+or giving up w
+hen there
+is no medical/ph
+ysical reason for
+doing
+so.
+Arguably
+, existing high au
+tomation appr
+oaches do not
+support positive a
+geing.
+Crucially
+, ‘tech
+nology progre
+ss’ in c
+losely int
+ertwined with conc
+epts of progress
+from a
+societal values
+perspective. N
+ew assisted dri
+ving solutions provide
+an
+opportunity to c
+hange/improv
+e the liv
+ed experience of older a
+dults, particularly
+in
+relation
+to au
+tonomy
+and social participation. Enabling driver
+persistence is an
+issue
+for all o
+f society
+, not just older a
+dults.
+.
+ Personalisation and ro
+le of AI
+Many neg
+ative
+driving experiences ar
+e linked t
+o frustrations
+with the
+vehic
+le
+not being configure
+d for the
+driver
+. Drivers ar
+e highly div
+erse in terms
+of
+size,
+strength, angle
+of
+vision and experie
+nce of differ
+ent vehicle
+s. Older dri
+vers
+present
+even
+greater div
+ersity when
+limitations of movement, hearin
+g, eye
+sight, memory
+emerge. I
+t is argued that
+personalisation is
+central to foste
+ring a positiv
+e driver
+experience. F
+or example, v
+ehicle sensors can
+be used to dete
+ct which
+driver is
+driving and to
+adjust the v
+ehicle par
+ameters
+according
+ly (i.
+e. angle
+of
+mirrors, st
+eer-
+ing wheel, sea
+t, etc.). Moreo
+ver
+, personalisation offers
+an enormous opportunity
+to ensur
+e that task support and m
+ul
+timodal feedbac
+k is configured according t
+o
+knowledg
+e of the particular dri
+ver’
+s ability (in
+cluding sensory
+ability), driving
+routines
+and routes
+and typical challenges/errors
+.
+A human-centric and ethi
+cally aligned design
+philosophy nec
+essitates
+continu-
+ous learning on
+the behalf of the assistance
+system (i.e
+. including AI/machine
+learning). If the assistance
+system can learn
+about those situations
+and tasks that
+prov
+e challengin
+g and/or str
+essful for the
+older adult driv
+er (i.e. driving in
+traffic,
+poor visibility
+, changing lanes
+, parking and so forth, etc.), then
+it can tailor
+the task
+support that it
+provides to
+the driver
+. This tailor
+ed task support is
+predictive/intel-
+ligent, ensuring that
+the driver
+persists in
+challenging driving situations, w
+hile also
+enjoying their dri
+ve.
+. R
+ole of human factors
+New
+technology raises c
+omplex ethical q
+uestions. Assessin
+g the ethical impli
+-
+cations of things
+which
+may not
+yet exist, or
+things which ma
+y hav
+e impacts
+we
+cannot pr
+edict, is v
+ery difficult. Howev
+er, this
+should not be barrier t
+o posing
+important que
+stions and ensuring that
+these questions ar
+e addressed as part
+of
+the design
+process. Typically
+, the human
+factors discipline is
+concerned with
+issues ar
+ound intended use, user int
+erface d
+esign and te
+chnology ac
+ceptability
+. As
+demonstrated in
+this research, human
+factors
+research
+should extend its remit
+to
+include
+examination of ethical issues pertaining to
+new technology
+, and specifi
+-
+cally
+, how w
+ell-being, rig
+hts and human value/benefit
+should be considered in
+terms o
+f
+design solutions
+. In this
+way
+, HF methods can be
+used to pr
+ovide some
+protections
+to ensur
+e that
+ethical issues
+are conside
+red. As de
+monstrated in
+this
+research, the
+application of a personae/
+scenario-based design approa
+ch allows us
+to consid
+er the ethical dimension o
+f these technologie
+s. Further
+, the translation
+of system
+objectives
+in relation t
+o w
+ell-being and human
+benefit objecti
+ves
+and
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+associated metrics—ensures that
+well-being and human
+benefit is
+both a refe
+rence
+point and a
+design out
+come. W
+e may
+not ha
+ve certainty
+as regards
+potential future
+technology
+impact, but at least
+we
+are asking important
+questions so as
+to pav
+e the
+way
+for an ethically
+aligned technology of which
+well-being and human
+value is
+a
+cornerstone
+. The de
+sign and impleme
+ntation o
+f ethically aligned techno
+logy takes
+leadership
+and education. It also
+requires
+adopting a multi-disciplinary perspe
+ctive
+and ensuring div
+erse disciplines are
+involv
+ed in solution
+design (inc
+luding persons
+trained in ethics
+and moral reasoning). Further
+, a crucial element
+of
+the de
+sign
+process
+to ensur
+e an ethical product
+is rigorous
+experimentation in a
+simulator
+using a co-design
+approach.
+.
+ Next steps
+The initial concept
+requires further elaboration
+and specification. In line
+with a human
+factors approac
+h, a series
+of co-design and evalua
+tion sessions
+will be undertaken
+with end users. In
+addition, the proposed solution
+will be
+evaluated in
+using a driving simulator
+. A health ev
+ent cannot be
+induced as
+par
+t
+of a driving simulation
+exercise. Ho
+wev
+er, w
+e can evaluate
+the overall con
+cept,
+driver
+responses and the usabilit
+y of specific dri
+ver
+input/output c
+ommunication
+mechanisms.
+. Conclusion
+s
+The proposed de
+sign/automa
+tion approac
+h reflects
+an ethically aligned and
+principled approach
+to a multi-dimensional design
+problem. Human benefit,
+well-
+being and respect f
+or human rights
+and identity ar
+e important goals f
+or new
+assisted driving t
+echnologies. Su
+ch sy
+stems m
+ust also be
+verifiably saf
+e and secure
+.
+In this
+way
+, the solution needs
+to carefully balan
+ce goals
+around safety and human
+benefit. As indica
+ted in this
+research, well-
+being and human benefit
+goals and
+associated KPI are
+defined to ensure
+that these concepts
+are properly
+considered in
+the design
+process, and to e
+nsure that
+well-being and human
+benefit is
+a tangible
+outcome
+of new assisted drivin
+g solutions.
+Arguably
+, existing high au
+tomation appr
+oaches do not
+support positive a
+geing.
+Crucially
+, ‘tech
+nology progre
+ss’ in c
+losely int
+ertwined with conc
+epts of progress
+from a
+societal values
+perspective. N
+ew assisted dri
+ving solutions provide
+an
+opportunity to c
+hange/improv
+e the liv
+ed experience of older a
+dults, particularly
+in
+relation
+to au
+tonomy
+and social participation. Enabling driver
+persistence is an
+issue
+for all o
+f society and not just
+older adults.
+The application
+of
+new car-
+based sensors underpinned by
+machine learning
+techniqu
+es, and innov
+ativ
+e multimodal HMI communi
+cation methods
+can support
+driver
+persistence, driv
+er enablement and su
+ccessful ageing
+. The pr
+oposed adap-
+tive
+automation/co-pilot
+concept is pre
+dicated on
+an analysis
+of
+the lit
+erature and
+relevant
+ageing data (i.e
+. TILDA data
+). The co-pilot con
+cept and associat
+ed innova-
+tive
+multimodal HMI will be further elaborated using human
+factors/stakehold
+er
+evaluation m
+ethods (for
+example, participatory co-de
+sign and evaluation
+in a test
+simulator).
+It is
+anticipated that this
+new car-based techno
+logy will deliv
+er () safe
+driving
+() driving persist
+ence and (
+) an enhanced driver
+experience. (
+) Health monitor-
+ing is built in
+to (
+), () and (). In
+this way
+, health monitoring is
+not a goal of new
+driving assistance
+systems. Rather
+, it is an
+enabler of driv
+er assistance sy
+stems and
+promotes
+safe driving, drivin
+g persistence
+and an enhanced driv
+er experienc
+e.
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+Acknowledgements
+The author
+s w
+ould like to
+thank the Science F
+oundation Ireland (SFI)
+who co-
+sponsored this r
+esearch.
+Conflict of intere
+st
+The author
+s declar
+e no c
+onflict of interest.
+Appendices and N
+omenclature
+A. Research p
+hases and status
+Se
+e
+Tab
+l
+e 
+.
+Phase Description
+Details
+Status
+
+Literature r
+eview
+Driver tas
+k, older adult
+driver segmen
+tation, older
+driver c
+hallenges, self
+-regulation of driving, driver
+cessation
+Complete
+Successful ageing
+Health conditions
+that impact
+on older a
+dult driving
+Assisted driving concept
+s and issues pe
+rtaining to
+ethics and user ac
+ceptability
+The detection/interpret
+ation of driver
+states (i.e.
+physical, c
+ognitive and e
+motional states) using
+a combination
+of sensor-based technology
+and
+machine learning t
+echniques
+Innovati
+ve multimodal com
+munication approac
+hes
+and driving solutions
+
+Advancement of
+profiles, persona
+e and
+scenarios
+Segmentation of driv
+er profiles
+in relation
+to driv
+er
+persistence
+and ability
+Complete
+Advancemen
+t of personae and sc
+enarios
+
+Specification of
+theoretical principles
+underpinning
+advancement of new
+driving concept
+Advancemen
+t of technology
+role, purpose and
+approach (a
+daptive automation)
+Complete
+
+Specification of high-
+level multimodal HMI
+approach
+Specification of scenarios
+Iterativ
+e refinement of scenarios an
+d multimodal
+concept
+Iterativ
+e integration of scenarios with
+sensor and
+machine learning re
+search
+Complete
+
+Co-design of evaluation
+of HMI concept
+Specification of preliminary
+UI concept
+Preliminary co-design/
+evaluation with stakeholder
+panel (desktop
+simulation of high-level concept
+Ongoing
+
+Simulator evalua
+tion
+Detailed evaluation in
+simulator
+To d
+o
+Ta
+ble 5.
+Resea
+rch phase
+s and status
+.
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+B. Per
+sonae
+Se
+e
+Figure 
+and
+.
+C. Summary of ethical, legal and societal/user a
+cceptability issues
+Se
+e
+Tab
+l
+e 
+.
+
+Question/issue Keywords
+
+How mu
+ch dependenc
+e on tec
+hnologically comp
+lex system
+s (potentially
+based on artificial intelligenc
+e with mac
+hine learning capabilities)
+will the public a
+ccept to
+achieve, in return, more
+s
+afety
+, mobility and
+conve
+nience?
+Ethics, user
+, societal
+acceptability
+
+Agreeing/d
+efining the purpose an
+d role of these sy
+s
+tems? Should the
+purpose go be
+yond safety?
+Ethics, user
+, societal
+acceptability
+, safety
+
+Agreeing/d
+efining the role
+of
+the individual in
+the system
+Ethics, user
+, societal
+acceptability
+, legal
+Figure 2.
+Personae (J
+ames).
+Figure 3.
+Personae (
+Sam).
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+
+Question/issue Keywords
+
+Dealing with conflict
+between tw
+o goals—promoting driver persist
+ence
+and ensuring road safety
+(enabling an older driv
+er to continue
+driving,
+even
+if there is a risk
+of
+a serious a
+ccident giv
+en medical background)
+Ethics, user
+, societal
+acceptability
+, legal, safety
+,
+driver pe
+rsistence
+
+Should the syste
+m determine
+the leve
+l of automation/assistance
+, or
+the older a
+dult? Is this somethin
+g that the old
+er adult choose
+s (and can
+modify in real-time), or
+is it prescribed given
+profile inf
+ormation?
+Ethics, user
+, societal
+acceptability
+, legal, safety
+,
+driver pe
+rsistence
+
+What is the
+intended use?
+Are these
+reactive
+and/or predi
+ctive sy
+stems?
+Ethics, user
+, societal
+acceptability
+, legal, HF
+
+Balancing expected benefit
+s ver
+sus risk (sy
+s
+tem failur
+e, hacking, et
+c.)
+Ethics, user, societal
+acceptability
+, legal, HF
+
+What are
+the legal obligations
+of the driver
+, if the driver is
+taken out of
+the loop (i.
+e. full automation)?
+Ethics, legal, societal/user
+acceptability
+
+Who is to
+blame if there in accident—the
+driver or the co-
+pilot?
+Ethics, legal, societal/user
+acceptability
+
+If the driver
+is in an impaired state
+(i.e. Alcohol, drug use, medications)
+should they be
+allowed driv
+er only if automation take
+control?
+What lev
+el of impairment is
+acceptable?
+Ethics, legal, societal/user
+acceptability
+
+Addressing conflict
+dilemmas on the
+road?
+How should the
+car act (what augh
+t the au
+tomated car do/
+decision
+logic), in cases
+where a
+choice must
+be made
+between one
+of
+two evils
+(decision betw
+een one human life
+and another)?
+Ethics, legal, societal/user
+acceptability
+, safety
+
+In wha
+t circumstances
+, can automation take
+control ov
+er the car (
+over-
+ride the de
+cisions of the driv
+er)?
+Safety
+, human factors,
+legal, ethics, user/
+societal
+acceptability
+
+Should the driv
+er be able
+to take control of the car
+at any point?
+Should the driv
+er alway
+s be in control?
+What tasks ar
+e suitable t
+o delegate
+to automation?
+Safety
+, human factors,
+legal, ethics, user/
+societal
+acceptability
+
+Protection of the pe
+rsonal sphere?
+User
+control ov
+er own inf
+ormation?
+Information
+span personal profile
+, heal
+th profile
+, location tracking,
+destination trac
+king, safety
+behaviour
+, etc.
+Legal, ethics, user/societ
+al
+acceptability
+
+Handove
+r issues/transition
+of
+control (human t
+o technology
+handover
+and tech t
+o human, etc.)
+Safety
+, human factors, ethics,
+user/societal ac
+ceptability
+
+Software hack
+and misuse
+Cybersecurit
+y threats
+and vulnerabilities—both in relation to
+personal
+information and car
+security
+Safety
+, human factors, ethics,
+user/societal ac
+ceptability
+
+Safety issue
+s related t
+o equipment or syste
+m failure. S
+ystem/equipme
+nt
+failure and v
+ehicle performance in
+unexpected situations
+Safety
+, human factors, ethics,
+user/societal ac
+ceptability
+
+Acceptable
+levels o
+f
+workload—monitorin
+g automation sta
+tus.
+Safety
+, human factors, user
+acceptability
+
+Per
+sonality traits an
+d assisted driving
+Safety
+, societal acceptability
+,
+ethics
+
+Dealing with emotions
+and providing feedback to
+the driv
+er
+Health monitoring
+, safety
+,
+user/societal ac
+ceptability
+,
+ethics, legal
+
+Does the sy
+stem pro
+vide the driv
+er with feedback
+about their health?
+Health monitoring
+, safety
+,
+user/societal ac
+ceptability
+,
+ethics, legal
+
+System
+and consideration of information a
+vailable to
+potential
+passengers?
+Safety
+, driver experience
+,
+ethics, legal, user/
+societal
+acceptability
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+Author
+details
+JoanCahill
+
+*, KatieCr
+owley
+
+, SamCromie
+
+, AlisonKay
+
+, MichaelGormley
+
+,
+EamonnKenn
+y
+
+, SonjaHermman
+
+, CiaranDoyle
+
+, AnnHever
+
+and RobertRoss
+
+ School of Psychology
+, T
+rinity College
+Dublin (TCD), Ire
+land
+ AD
+APT Centre,
+Trinity College Du
+blin, Ireland
+ Department of Ph
+ysical Education
+and Sport Sciences, Uni
+versity of Limerick,
+Ireland
+ The I
+r
+ish Longitudinal S
+tudy on
+Ageing, TCD
+, Ireland
+ School of Computing, Dublin
+Institute of T
+echnology
+, Ireland
+*
+Address all corresponde
+nce t
+o: cahilljo@tcd.ie
+
+Question/issue Keywords
+
+Environmental im
+plications
+Legal, user/societal
+acceptability
+
+Training require
+d—changes to
+existing driver
+training?
+Safety
+, legal
+
+Recording o
+f information for cras
+h analysis purpose
+s? Similar to coc
+kpit
+voice
+recorder and flig
+ht data
+recorder?
+Safety
+, ethics, legal, user/
+societal acceptability
+
+Should self-v
+ehicles be
+able to
+operate in
+normal traffic or in
+separate
+lanes?
+Driver e
+xperience,
+ethics, legal, user/
+societal
+acceptability
+
+Data transmission? Sharing of informa
+tion with other
+par
+ties?
+Ethics, leg
+al, user/societal
+acceptability
+
+Whether driv
+ers expect t
+o find it enjo
+yable or not? Should it
+be
+enjoyable?
+Driver e
+xperience
+
+Should self
+-driving vehicles be
+able to m
+ove
+while unoccupied?
+Ethics, safety
+, driver
+experience
+
+How should self
+-driving vehicles int
+eract with
+other non-self
+-driving
+vehicles?
+Ethics, safety
+, driver
+experience
+Ta
+ble 6.
+Ethical, leg
+al and societal/user accept
+ability issues
+.
+© 
+The Author(s). License
+e Int
+echOpen. This
+chapter is distributed und
+er the t
+erms
+of the Creativ
+e Commons A
+ttribution License (http://
+creativecommons
+.org/licenses/
+by/
+.), which
+permits unrestricted use
+, distribution, and reproduction
+in any medium,
+provided the
+original work is pr
+operly cit
+ed.
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+Ref
+erences
+[]
+We
+bber SC, P
+orter MM, Mene
+c
+VH.
+Mobility
+in older
+adults: A
+comprehensi
+ve
+framework. The
+Gerontologist. 
+;
+
+:-. DOI:
+.
+/
+geront/gnq
+
+[]
+United N
+ations. W
+orld Population
+Prospects. 
+
+. A
+vailable from: https://
+esa.
+un.org/unpd/wpp/Publications/
+Files/WPP_K
+eyFindings.pdf
+[]
+W
+orld Health Organization (WHO
+).
+Global Status R
+epor
+t on
+Road Safety
+
+. Availab
+le from: https://www
+.
+who.int/violence
+_injury_preve
+ntion/
+road_safety
+_s
+tatus/
+/en/
+[]
+National H
+ighwa
+y Traffic
+Safety
+Administration. N
+ational Motor
+V
+ehicle Crash
+Sur
+ve
+y Re
+sults.
+
+. A
+vailable from: https://
+crashstats.nh
+tsa.dot.g
+ov/
+Api/Public/
+ViewPublication/
+
+[]
+Road Saf
+ety Authority
+. Medical
+Fitness
+to Driv
+e Guidelines. 
+.
+A
+vailable from: http://www
+.rsa.ie/
+Documents/Licensed
+Drivers/
+Medical_Issu
+es/Sláinte_a
+gus_
+Tiomáint_
+Medical_Fitnes
+s_to
+_Drive_
+Guidelines.
+pdf
+[]
+Anstey
+KJ, W
+ood J
+, Lord S, etal.
+Cognitive
+, sensory and physical
+factors
+enabling driving saf
+ety in
+older
+adults. Clinical P
+sychology Review
+.
+;
+
+:-
+[]
+Langford J
+, Braitman K, Charlt
+on J
+,
+Eberhard J
+, O’Neill D, Staplin
+L
+,
+etal. TRB W
+orkshop: Licensing
+authorities’ option
+s for
+managing older
+driver
+safety practical advi
+ce from
+the
+researcher
+s. Traffic I
+njury Prev
+ention.
+;
+
+(
+):-
+[]
+Organization for
+Economic
+Co-Operation and De
+velopment.
+Ageing and
+Transport, Mobility Nee
+ds
+and Safety I
+ssues. Paris, Fran
+ce: OECD
+Publications; 
+
+[]
+Marottoli RA, de Leon CFM,
+Glass
+TA, W
+illiams CS, Cooney LM J
+r,
+Berkman LF
+.Consequen
+ces of driving
+cessation: Decreased out
+-of-home
+activity le
+vels
+. Journal of Geronto
+logy
+.
+;
+
+():S-S
+
+[]
+Ackerman
+ML
+, Edwards
+JD, Ross
+LA
+,
+Ball K, Lunsman M.Examination
+of
+cognitiv
+e and instrumental functional
+performance
+as indicators f
+or driving
+cessation ris
+k across
+ years. The
+Gerontologist. 
+;
+
+():
+-
+[]
+Curl A, Stow
+e J, Cooney
+T
+,
+Proulx C.Gi
+ving up the
+keys: How
+driving cessation
+affects engage
+ment
+in late
+r life
+. The Ger
+ontologist.
+;
+
+():-
+[]
+Edwards
+JD, Lunsman M, P
+erkins M,
+Rebok G
+W
+, Roth
+DL.Driving cessation
+and health trajectories
+in older adults
+.
+The Journals
+of Gerontology
+. S
+eries
+A, Biological Sciences and M
+edical
+Sciences. 
+;
+
+():-. DOI:
+.
+/
+gerona/glp
+
+[]
+N
+ational Highwa
+y Traffic
+Safety
+Administration. Preliminary
+statement
+of policy concernin
+g automat
+ed
+vehic
+les. 
+. Availab
+le from: http://
+www
+.nhtsa.gov/sta
+ticfiles/rulemaking/
+pdf/A
+utomated_
+V
+ehicles_P
+olicy.pdf
+[]
+Kyriakidis
+M, Happee R, De
+Wint
+er JCF
+.Public opinion on
+automat
+ed driving: Results of an
+international qu
+estionnaire amon
+g
+, responde
+nts. Tran
+sportation
+Researc
+h Part F:
+Traffic Psy
+chology and
+Behaviour
+. ;
+
+:-
+
+[]
+Oxford Eng
+lish Dictionary
+.
+Definition of Ethics. 
+. A
+vailable
+from: https://e
+n.oxf
+orddictionaries.
+com/definition/
+ethics
+[]
+U
+nited Nations. U
+niversal
+Declaration o
+f
+Human Righ
+ts. .
+A
+vailable from: https://www
+.un.
+org/en/
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+univer
+s
+al-declaration-human-rig
+hts/
+index.html
+[
+]
+Bostrom N.
+“
+The transhumanist
+F
+AQ: A general intr
+oduction.
+” V
+ersion
+.. W
+orld Transhumanist
+Association;
+
+. Available
+f
+rom: http://www
+.
+transhumanism.org/r
+esources/F
+AQv.
+pdf
+[]
+Evans
+W
+.Posthuman Rights:
+Dimensions of Transhuman W
+orlds.
+Univ
+ersidad Complutense
+, Madrid:
+T
+eknokult
+ura; 
+. A
+vailable from:
+https://revistas.
+ucm.es/index.php/
+TEKN/article/view/
+
+[]
+Capurro R.Digital Ethics. The
+Academ
+y of Korean Studie
+s (e
+d.): 
+Civilization and P
+eace, Korea: Aca
+demy
+of Korean S
+tudies; 
+. pp.
+-
+[]
+Organization f
+or Economic
+Co-Operation and De
+velopment
+OECD . Nd
+Wor
+ld Forum—Istanbul
+
+
+, Measuring and F
+ostering the
+Progress
+of
+Societies. A
+vailable from:
+http://www
+.oecd.org/
+site/,
+
+,en_______,
+.
+html
+[]
+Heidegger
+M.The Question
+Concerning
+T
+echnology
+, and Other Essa
+ys.
+th ed. N
+ewY
+ork: Harper & R
+ow; 
+
+[]
+Winograd T
+, F
+lores
+F
+.
+Under
+s
+tanding Comput
+ers and
+Cognition: A New
+Foundation for
+Design N
+or
+wood. Ne
+w Je
+rsey: Ablex
+Publishing Corporation; 
+[]
+Fry T
+.Becoming Human
+by Design.
+Oxford, UK: Berg Publishe
+rs; 
+[]
+Partnership on
+Ar
+tificial
+Intellig
+ence to Benefit
+People and
+Society to
+Formulate Best
+Practices on
+Artificial Intelligence
+Technologie
+s.
+
+. Availab
+le from: https://www
+.
+partnershiponai.org/
+about
+/
+[]
+IEEE.Ethically Aligned Design,
+A V
+ision for
+Prioritizing Human
+W
+ell-being with A
+utonomous and
+Intellig
+ent Systems
+. First Edition
+(EAD
+e) i. 
+. A
+vailable from: https://
+ethicsinaction.ieee.
+org/
+[]
+Cino
+ğ
+lu
+H, Ar
+ı
+kan Y
+.Self, identity
+and identity
+formation: Fr
+om the
+perspectiv
+es of three
+major theories.
+International J
+ournal of Human
+Sciences. 
+;
+
+():-
+[]
+Hewitt JP
+.Dilemmas of the
+American Self
+. Philadelphia: T
+emple
+Univ
+ersity Press; 
+[]
+Ryff CD, Singe
+r BH.Best
+news
+yet on
+the six-factor
+model of well-
+being. Social Science R
+esearch.
+;
+
+(
+):
+-. DOI: 
+.
+/j.
+ssresearch.
+..
+
+[]
+OECD
+.Better Life
+Initiative –
+Measuring Progre
+ss. . A
+vailable
+from: http://www
+.oecd.
+org/sdd/OECD-
+stat-w
+ork--w
+ell-being.pdf
+[]
+Blazer DG.Self
+-efficacy and
+depression
+in late
+life: A primary
+prev
+ention proposal. Agin
+g & Mental
+Health. 
+;
+
+():-
+[]
+WHO.  F
+acts On Ag
+eing &
+Health. 
+
+. A
+vailable from: h
+ttps://
+www
+.
+who.int/features/factfiles/
+ageing/
+en/
+[]
+Ro
+we JW
+, Kahn RL.Successful
+Aging. N
+ewY
+ork: Pantheon Books; 
+[]
+Frijters P
+, Beatton
+T
+.The myst
+ery
+of the U-sha
+ped relationship
+between
+happiness and a
+ge. J
+ournal of Economic
+Behavior
+& Organization. 
+;
+
+(-):-. Av
+ailable from: https://
+www
+.sciencedirect.c
+om/science/
+ar
+ticle/
+pii/S
+
+
+
+[]
+Population.sg T
+eam. Smart Ageing
+Strategies
+in Japan, T
+aiwan and
+Singapore. 
+. A
+vailable from: https://
+www
+.population.sg/articles/
+smart-
+ageing
+-strategies-in-japan-tai
+wan-and-
+singapore
+
+Ethical Is
+sues in the N
+e
+w Digital Er
+a: The Case of A
+ssisting Drivin
+g
+DOI: http://dx
+.doi.org/10
+.5772/intechopen.
+88371
+[]
+Fuller R.T
+owards a
+general theory
+of driver
+behaviour
+. Accident; Analy
+sis
+and Prev
+ention. 
+;
+
+():-
+[]
+DaCoT
+A.Cost-benefit analy
+sis,
+Delive
+rable 
+.d o
+f the EC FP project
+DaCoT
+A
+, Brussels. 
+
+[]
+AAA Foundation
+for
+Traffic Safety
+.
+Relationship
+Between Driving Ha
+bits
+and Health-R
+elated Quality of Life:
+AAA LongRO
+AD Study
+. 
+. A
+vailable
+from: https://aaaf
+oundation.org/
+relationship-
+between-driving
+-habits-
+and-health-relat
+ed-quality
+-of-
+life-aaa-
+longroad-stud
+y/
+[]
+Hjorthol R, Levin L, Sirén A.Mobility
+in differ
+ent generations
+of older persons:
+The dev
+elopment of daily tra
+vel in
+different
+cohorts in Denmark, N
+or
+way
+and Swed
+en. Journal of T
+ransport
+Geograph
+y
+. 
+;
+
+():-
+[]
+Szenam
+o Project. Scenarios o
+f
+the
+future mobility
+of
+elderly
+people. Final
+Report. 
+
+[]
+V
+an Beek P
+et al. Senior
+Cosmopolitan or
+Modern Tr
+aditional:
+Keep
+moving.
+T
+he mobilit
+y beha
+viour
+of the future olde
+r people in
+three
+scenario
+’
+s [In
+Dutch: Senior Cosmopoliet
+of Modern
+Traditioneel: Keep
+moving
+Het mobilit
+eitsgedrag van toe
+komstige
+ouderen
+in drie scenario
+’
+s]. 
+
+[]
+Aigner-B
+reuss E etal.
+Mobilitätss
+zenarienkatalog – Projekt
+MOTION +. Vien
+na, Austria:
+Kurat
+orium für V
+erkehrssic
+herheit;
+
+[]
+Bea
+udoux M, Deleu H.Mobilit
+y for
+an Agein
+g Population. Paris
+, France:
+V
+eolia Mobilit
+y Lab; 
+
+[]
+Goal Project. Deliver
+able D
+.—
+Profiles
+of Older Pe
+ople. Gro
+wing Older
+,
+Staying M
+obile: Transport Nee
+ds for
+an
+Ageing Society
+. 
+. Available
+f
+rom:
+http://www
+.goal-project.eu/imag
+es/
+reports/d-_goal_final_
+
+.pdf
+[
+]
+Langford J, K
+oppel S.Epidemiology
+of older driv
+er crashes—Identifying
+older driv
+er risk factors
+and exposure
+patterns
+. Transportation
+Research P
+art
+F: Traffic
+Psychology and Beha
+viour.
+;
+
+():-
+[]
+V
+ichitvanichphong S, Talaei-
+Khoei A, Kerr D
+, Ghapanchi A.What
+does happen
+to our driving w
+hen
+we
+get older?
+Transport Review
+s.
+
+;
+
+():-
+[]
+Arai A, Arai Y
+.Self-assessed driving
+behaviors
+associated with age
+among
+middle-aged and older
+adults in J
+apan.
+Archiv
+es of Gerontology and Geriatrics
+.
+
+;
+
+():-. ISSN: -
+[
+]
+Polders E, Brijs
+T
+, Vlahogianni E,
+Papadimitriou
+E
+, Y
+annis G, Leopold
+F
+, etal. Eldersafe: Risks and
+countermeasure
+s for
+road traffic of
+elderly
+in Europe. Final report. N
+MOVE/C/
+-. 
+. A
+vailable
+from: https://e
+c.europa.
+eu/transport
+/
+road_safety/
+sites/roadsafety/files/pdf/
+studies/elde
+rsafe_final_r
+eport.pdf
+[
+]
+Dickerson AE, Molnar
+LJ, Eby D
+W
+,
+Adler H, Be
+’
+dard M, Berg-
+W
+eger M,
+etal. Transportation
+and aging:
+A research
+agenda for
+advancing
+safe mobilit
+y.
+The Geront
+ologist.
+;
+
+:-
+[]
+Charlton J
+, Koppel S, Odell M,
+Devlin A, Langfor
+d J, O’H
+are M, etal.
+Influence
+of Chronic Illness on
+Crash
+Inv
+olvement o
+f Motor
+V
+ehicle Driver
+s:
+nd Edition (N
+o. ). V
+ictoria,
+Australia: MU
+ARC (Monash
+Univer
+sity
+Accident
+Research Centr
+e); 
+[]
+Marshall SC.The role
+of
+reduce
+d
+fitness t
+o driv
+e due to
+medical
+impairments
+in explaining crashes
+inv
+olving older dri
+vers. T
+raffic Injury
+Prev
+ention. 
+;
+
+():-
+. DOI
+:
+.
+
+/
+
+
+
+[]
+Thrun S.To
+ward robotic
+cars. Communica
+tions of the
+Ethics Laws a
+nd Policies for Privacy Secu
+rity and Liability
+
+ACM. 
+;
+
+(
+):-
+. DOI:
+.
+/.
+
+[]
+SAE I
+nternational. J
+,
+International T
+axonomy and
+Definitions f
+or T
+erms R
+elated to
+Driving
+Automa
+tion Sy
+stems for On-
+Road Motor
+V
+ehicles (J
+:Sept 
+)
+[]
+Gasser TM, W
+esthoff
+D.B
+ASt-
+Study: Definitions
+of
+Aut
+omation and
+Legal Issues
+in Germany
+. 
+[]
+Rouse, M.Self-driving Car
+(Au
+tonomous Car
+or Driv
+erless
+Car). 
+. Av
+ailable from: https://
+searchente
+rpriseai.tec
+htarget.
+com/
+definition/driv
+erless-car
+[]
+Vienna
+Convention
+on Roa
+d Traffi
+c.
+Global Aut
+omotive R
+egulation Pag
+e
+Relat
+ed to A
+utomated Driving. 
+
+.
+A
+vailable from: https://g
+lobalautoregs
+.
+com/rules/--vienna-
+conv
+ention-on-road-traffic
+[]
+BMVI.Ethics Com
+mission—
+Appointed by
+the Federal Minist
+er of
+Transport and Digital I
+nfrastructure—
+Connected and A
+utomated Dri
+ving
+(
+
+)—BMVI.DE
+[
+]
+Surakitbanharn CA.Preliminary
+Ethical, Legal and Social Implications
+of Connected and Aut
+onomous
+Transportation
+V
+ehicles (CA
+TV). 
+
+[]
+Nordhoff S, de
+W
+inter J, K
+yriakidis
+M, van Ar
+em B, Happee
+R
+.Acceptan
+ce
+of driverle
+ss v
+ehicles: Results from
+a
+large cr
+oss-national que
+stionnaire stud
+y.
+Journal of Adv
+anced T
+ranspor
+tation.
+;
+
+:Ar
+ticle ID 
+,  p.
+A
+vailable from: .
+
+/
+/
+[]
+Schoettle B, Sivak
+M.A Sur
+vey
+of
+Public Opinion
+about Autonomous
+and
+Self-driving
+V
+ehicles in the
+U
+.., the U
+.K.,
+and Australia
+(T
+echnical Report No
+.
+UMTRI-
+-). 
+. A
+vailable from:
+http://de
+epblue.lib
+.umi
+ch.edu/bitstream/
+handle/
+./
+/
+
+.
+pdf?sequence=&isAllow
+ed=y
+[]
+Pruitt J, Grudin
+J.Personas: Pra
+ctice
+and theory
+. In: Proceedings
+of the 
+
+Conferenc
+e on De
+signing for U
+ser
+Experiences
+(DUX '
+). NewY
+ork,
+NY
+, USA: A
+CM; . pp
+.-. DOI:
+.
+/
+.
+[]
+Car
+roll JM.Scenario-based De
+sign:
+Envisioning
+Work
+and Tec
+hnology in
+Syst
+em Dev
+elopment. NewY
+ork: John
+Wile
+y and Sons; 
+[]
+Bødker
+S, Burr J.The d
+esign
+collaboratorium. A pla
+ce for usability
+design. A
+CM Transa
+ctions on Com
+puter
+Human I
+nteraction. ;
+
+():-
+
+[]
+Yin S.Smoke
+, fire and human
+evolution. The
+NewY
+ork Times. 
+.
+ISSN -. A
+vailable from: https://
+www
+.nytimes.com/
+/
+//
+science/
+fire-smoke-ev
+olution-tuberculosis.html
+[]
+Kahn
+CH.The Art and Thought
+of Heraclitus. Cambridg
+e: Cambridge
+Univ
+ersity Press; 
+[]
+Salganik
+MJ.Bit
+by Bit: Social
+Researc
+h in the
+Digital Age. Open
+review
+ed. NJ: Princeton
+Univ
+ersity
+Press; 
+
+[]
+Turner N, Don
+oghue O
+, Kenny RA.
+W
+ellbeing and Health in I
+reland’
+s ov
+er
+s
+-
+.
+. A
+vailable from:
+https://tilda.
+tcd.ie/publications/reports/
+pdf/w-
+key
+-findings-report
+/TILDA
+-
+W
+ave-
+Key-
+Findings-report.pdf
+... The study's three main objectives are to (1) identify the direction of transcendental law in addressing legal gaps in Indonesia and its relation to abstract goals such as justice, effectiveness, sustainability, and fairness, (2) conduct a gap analysis of legal reform in Indonesia, particularly in the digital era, from the perspective of transcendental law, and (3) propose recommendations for legal reform in Indonesia based on the perspective of transcendental law to achieve justice, effectiveness, sustainability, and fairness in the digital era. The study's hypothesis is that transcendental law can provide a comprehensive perspective on legal reform in Indonesia, particularly in the digital era, to achieve justice, effectiveness, sustainability, and fairness
+[6]
+.  ...
+Transcendental Law and Legal Reform in the Digital Era
+Chapter
+Full-text available
+May 2024
+Isman Isman
+Ahmad Hambali
+Aisha Baha Eldeen
+This study aims to examine the contribution of the concept of transcendental law to addressing legal gaps in Indonesia, offering a wider perspective on how the law can be directed towards achieving higher and more abstract objectives such as justice, effectiveness, sustainability, and fairness. Transcendental law is a legal principle that focuses on laws transcending the material and temporal worlds. In the context of converging legal thinking, transcendental law can help reach consensus and shared understanding in addressing legal gaps. In restructuring and transforming the legal system, transcendental law can guide changes that aim to achieve broader goals, such as justice, sustainability, and effectiveness. In the digital era, transcendental law can assist in developing a comprehensive regulatory framework that includes aspects such as privacy, data security, and copyright, while taking into account abstract values such as justice and sustainability. This study uses a literature review methodology and presents recommendations for legal reform in Indonesia. Overall, transcendental law provides a comprehensive outlook on how the law can be directed towards achieving larger and more abstract goals, contributing to legal reform in Indonesia.
+View
+Show abstract
+Towards Ethics-Driven Requirements Engineering: Integrating Critical Systems Heuristics and Ethical Guidelines for Autonomous Vehicles
+Chapter
+Apr 2025
+Amna Pir
+Irum Inayat
+Eric Knauss
+View
+DQN-based ethical decision-making for self-driving cars in unavoidable crashes: An applied ethical knob
+Article
+Jun 2024
+EXPERT SYST APPL
+Ehsan Vakili
+Abdollah Amirkhani
+Behrooz Mashadi
+View
+Digital literacy, practices, and transformative implications in teaching English as a second language
+Article
+Jun 2024
+Chenchen Chenchen
+View
+Should Electronic Medical Records Be an Alternative to Reference Intervals for Interpretation of Laboratory Results in Geriatric Subjects?
+Chapter
+Jul 2020
+Sudip Kumar Datta
+Reliable reference intervals (RI) and clinical decision limits (CDL) are indispensable for correct interpretations of laboratory results. The problem becomes more evident in geriatric population as these people are often affected by comorbidities, polypharmacy, and atypical disease presentations. With the advent of electronic medical records (EMR) and its wide availability, it becomes a possibility that, some baseline lab and clinical data would always be available which could be used as references, especially, in geriatric people, to evaluate them for chronic diseases. For the meaningful usage of EMR, the records need to be harmonized and available to the health care providers. These records can then be used to differentiate clinically relevant changes in lab investigations over periods of time. Hence, we need to define the percentage differences per unit periods of time or personalized CDL rather than absolute values based on population-based RI especially in the geriatric population. However, issues regarding security and ownership of EMR need to be well defined to prevent unwanted breaches in privacy.
+View
+Show abstract
+Driver Persistence, Safety and Older Adult Self-efficacy: Addressing Driving Challenges Using Innovative Multimodal Communication Concepts
+Chapter
+Full-text available
+Jul 2020
+Joan Cahill
+Katie Crowley
+Sam D Cromie
+Robert Ross
+New assisted driving technology provides a solution to enabling driver persistence while also addressing older adult fitness to drive issues. The proposed driver assistance system follows a detailed literature review, an analysis of secondary data, and the specification of a solution using human machine interaction (HMI) design methods. Overall, the assisted driving concept follows from a principled/ethical perspective in relation to promoting self-efficacy and enablement for older adults. The system is conceptualized as a supportive friend or ‘co-pilot’. It is argued that the use of new car-based sensors, along with machine learning intelligence and novel multimodal HMI communication methods will enable driver persistence while also promoting older adult self-efficacy and positive ageing.
+View
+Show abstract
+Wellbeing and Health in Ireland’s over 50s 2009-2016
+Technical Report
+Full-text available
+Nov 2018
+Daniel Carey
+Orna A Donoghue
+Sarah Gibney
+Mark T Ward
+Wave 4:
+
+Towards making Ireland the best place in the world to grow old. 
+
+Le go mbeidh Éire ar an tír is fearr ar domhan le dul in aois ann.
+View
+Show abstract
+Acceptance of Driverless Vehicles: Results from a Large Cross-National Questionnaire Study
+Article
+Full-text available
+Apr 2018
+J ADV TRANSPORT
+Sina Nordhoff
+Joost de Winter
+Miltos Kyriakidis
+Riender Happee
+Shuttles that operate without an onboard driver are currently being developed and tested in various projects worldwide. However, there is a paucity of knowledge on the determinants of acceptance of driverless shuttles in large cross-national samples. In the present study, we surveyed 10,000 respondents on the acceptance of driverless vehicles and sociodemographic characteristics, using a 94-item online questionnaire. After data filtering, data of 7,755 respondents from 116 countries were retained. Respondents reported that they would enjoy taking a ride in a driverless vehicle (mean = 4.90 on a scale from 1 = disagree strongly to 6 = agree strongly). We further found that the scores on the questionnaire items were most appropriately explained through a general acceptance component, which had loadings of about 0.7 for items pertaining to the usefulness of driverless vehicles and loadings between 0.5 and 0.6 for items concerning the intention to use, ease of use, pleasure, and trust in driverless vehicles, as well as knowledge of mobility-related developments. Additional components were identified as thrill seeking, wanting to be in control manually, supporting a car-free environment, and being comfortable with technology. Correlations between sociodemographic characteristics and general acceptance scores were small (<0.20), yet interpretable (e.g., people who reported difficulty with finding a parking space were more accepting towards driverless vehicles). Finally, we found that the GDP per capita of the respondents’ country was predictive of countries’ mean general acceptance score ( ρ=-0.48 across 43 countries with 25 or more respondents). In conclusion, self-reported acceptance of driverless vehicles is more strongly determined by domain-specific attitudes than by sociodemographic characteristics. We recommend further research, using objective measures, into the hypothesis that national characteristics are a predictor of the acceptance of driverless vehicles.
+View
+Show abstract
+A survey of public opinion about connected vehicles in the U.S., the U.K., and Australia
+Conference Paper
+Full-text available
+Nov 2014
+Brandon Schoettle
+Michael Sivak
+This survey examined public opinion regarding connected-vehicle technology across three large English-speaking countries — the U.S., the U.K., and Australia. The survey yielded useable responses from 1,596 persons over the age of 18. The main results were as follows: • The majority of respondents had not previously heard of connected-vehicle technology; however, most had a positive initial opinion of the technology. • The majority felt that the expected benefits presented in the survey are likely to occur. • Respondents generally expressed a high level of concern regarding the security and performance issues presented in the survey. • The majority of those surveyed stated that safety was the most important aspect of connected vehicles. • Most individuals said that it is important for personal communication devices to integrate with connected vehicles, as well as for such vehicles to have Internet connectivity. • The majority of respondents expressed a desire to have this technology in their vehicle. • Willingness to pay for connected-vehicle technology was very similar across the three countries. The main implications of these results are that the general public in the three countries surveyed feel positive about connected vehicles, have optimistic expectations of the benefits (while still maintaining some concerns), and generally desire connected-vehicle technology when it becomes available.
+View
+Show abstract
+Public opinion on automated driving: Results of an international questionnaire among 5000 respondents
+Article
+Full-text available
+Jul 2015
+Miltos Kyriakidis
+Riender Happee
+Joost de Winter
+View
+Becoming Human by Design
+Book
+Jan 2012
+Tony (Anthony) Hart Fry
+The last in Tony Fry’s celebrated trilogy of books continues his radical rethinking of design. Becoming Human by Design’s provocative argument presents a revised reading of human ‘evolution’ centred on ontological design.
+Examining the relation of design to the nature of the human species - where the species came from, how it was created, what it became and its likely future - Fry asserts that current biological and social models of evolution are an insufficient explanation of how ‘we humans’ became what we are.
+Making a case for ontological design as an evolutionary agency, the book posits the relation between the formation of the world of human fabrication and the making of mankind itself as indivisible. It also functions as a provocation to rethink the fate of Homo sapiens, recognising that all species are finite and that the fate of humankind turns on a fundamental Darwinian principle - adapt or die. Fry considers the nature of adaptation, arguing that it will depend on an ability to think and design in new ways.
+View
+Show abstract
+Self-Driving Autonomous Car
+Article
+Aug 2020
+Prajwal M R
+View
+Public Opinion on Automated Driving: Results of an International Questionnaire Among 5,000 Respondents
+Article
+Jan 2014
+Miltos Kyriakidis
+Riender Happee
+Joost de Winter
+This study investigated user acceptance, worries, and willingness to buy partially, highly, and fully automated vehicles. By means of a 63-question Internet-based survey, we collected 5,000 responses from 109 countries (40 countries with at least 25 respondents). We determined cross-national differences, and assessed correlations with personal variables, such as age, gender, and personality traits as measured with a short version of the Big Five Inventory. Results showed that respondents, on average, found manual driving the most enjoyable mode of driving. Responses were diverse: 22% of the respondents did not want to pay more than
+0
+f
+o
+r
+a
+f
+u
+l
+l
+y
+a
+u
+t
+o
+m
+a
+t
+e
+d
+d
+r
+i
+v
+i
+n
+g
+s
+y
+s
+t
+e
+m
+,
+w
+h
+e
+r
+e
+a
+s
+5
+0 for a fully automated driving system, whereas 5% indicated they would be willing to pay more than
+30,000 for it, and 33% indicated that fully automated driving would be highly enjoyable. 69% of respondents estimated that fully automated driving will reach a 50% market share between now and 2050. Respondents were found to be most concerned about software hacking/misuse, and were also concerned about legal issues and safety. More neurotic people were slightly less comfortable about data transmitting, whereas agreeable persons were slightly more comfortable with that. The more developed countries (in terms of accident statistics, education, and income) were less comfortable with their vehicle transmitting data, with cross-national correlations between ρ= -0.80 and ρ= -0.90. The present results indicate the major areas of promise and concern among the international public, and could be useful for vehicle developers and other stakeholders.
+View
+Show abstract
+Successful aging
+Article
+Jan 1998
+J.W. Rowe
+R.L. Kahn
+View
+Introduction—The Transhumanist FAQ: A General Introduction
+Chapter
+Jan 2014
+Nick Bostrom
+Transhumanism is a way of thinking about the future that is based on the premise that the human species in its current form does not represent the end of our development but rather a comparatively early phase. We formally define it as follows:1.
+The intellectual and cultural movement that affirms the possibility and desirability of fundamentally improving the human condition through applied reason, especially by developing and making widely available technologies to eliminate aging and to greatly enhance human intellectual, physical, and psychological capacities.
+2.
+The study of the ramifications, promises, and potential dangers of technologies that will enable us to overcome fundamental human limitations, and the related study of the ethical matters involved in developing and using such technologies.
+View
+Show abstract
+Cost-benefit analysis
+Article
+Jan 1971
+D. Pearce
+View
+Show more
+Recommended publications
+Discover more about:
+Driving
+Article
+Commercial Digital Equipment in Nuclear Plants: The Ethos of a Black Box
+November 1995
+·
+IFAC Proceedings Volumes
+Charles M. Waite
+The nuclear industry is faced with the reality that it is no longer a driving market force in the field of digital equipment, and must either design its own equipment to meet stringent quality requirements, or use commercially available equipment that was not specifically designed for “safety-related” applications. But how do we distinguish between good and bad commercially available equipment?
+... [Show full abstract]
+What activities will provide us with an adequate level of confidence? We must weigh such factors as the ethic of expediency and the fiction of objectivity. This paper examines the technical debate in the context of the new marketplace, and the rhetoric of safety
+Read more
+Chapter
+Full-text available
+Advancing a ‘Human Factors & Ethics Canvas’ for New Driver Assistance Technologies Targeted at Older...
+July 2020
+·
+Lecture Notes in Computer Science
+Joan Cahill
+Katie Crowley
+Sam D Cromie
+[...]
+Robert Ross
+Automated driving solutions represent a potential solution to promoting driver persistence and the management of fitness to drive issues in older adults. This paper reports on the application of a ‘Human Factors & Ethics Canvas’ and associated methodologies, to support the preliminary specification of an ethically responsible solution for a new driver assistance system. The proposed driving
+... [Show full abstract]
+assistance solution has emerged from an analysis of certain ethical principles in relation to the goals and needs of specific older adult drivers (i.e. personae) in different situations (i.e. scenarios). The driving solution is designed to optimize the abilities and participation of older adults.
+View full-text
+Chapter
+Full-text available
+Driver Persistence, Safety and Older Adult Self-efficacy: Addressing Driving Challenges Using Innova...
+July 2020
+·
+Advances in Intelligent Systems and Computing
+Joan Cahill
+Katie Crowley
+Sam D Cromie
+[...]
+Robert Ross
+New assisted driving technology provides a solution to enabling driver persistence while also addressing older adult fitness to drive issues. The proposed driver assistance system follows a detailed literature review, an analysis of secondary data, and the specification of a solution using human machine interaction (HMI) design methods. Overall, the assisted driving concept follows from a
+... [Show full abstract]
+principled/ethical perspective in relation to promoting self-efficacy and enablement for older adults. The system is conceptualized as a supportive friend or ‘co-pilot’. It is argued that the use of new car-based sensors, along with machine learning intelligence and novel multimodal HMI communication methods will enable driver persistence while also promoting older adult self-efficacy and positive ageing.
+View full-text
+Article
+Depressive Symptoms Among Older Adults Who Do Not Drive: Association With Mobility Resources and Per...
+January 2015
+·
+The Gerontologist
+Namkee Choi
+Diana M. DiNitto
+To examine alternative means of mobility that nondriving older adults rely on and their impact on well-being.
+Data from the 2011 (T1, N = 6,680) and 2012 (T2, N = 5,413) interview waves of the National Health and Aging Trends Study were used to examine sample characteristics by driving status, use of alternative mobility resources, and perceived transportation-related barriers among ex-drivers
+... [Show full abstract]
+and nondrivers, and their association with depressive symptoms.
+A majority of nondrivers relied on their informal support system and/or paid assistance to drive them to places. About half reported walking/using a wheelchair or scooter. A significant proportion of never drivers also used public transportation and van/shuttle services, whereas a smaller proportion of ex-drivers used them. Nondrivers who walked for transport had lower depressive symptoms than those who did not walk at either T1 or T2, and perception of transportation barriers to visiting friends/family was associated with higher depressive symptoms at T1 only.
+Older adults' mobility needs should be met through increasing walkability, public and paratransit transportation, supplemental senior transportation, and increasing informal caregivers-transportation providers' ability to aid older adults.
+© The Author 2015. Published by Oxford University Press on behalf of The Gerontological Society of America. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
+Read more
+Article
+Car Licensing Trends of the Babyboomer Cohort (b. 1946–1965) Compared to Earlier Birth Cohorts: Effe...
+April 2015
+·
+Traffic Injury Prevention
+Sjaan Koppel
+Janneke Berecki-Gisolf
+The objective of this article was to explore trends in licensing among babyboomer older drivers in the state of Victoria, Australia. The study aims were to (1) compare the car licensing trends of the babyboomer cohort to that of previous birth cohorts and (2) predict the number of babyboomers licensed to drive a car in 2021 when the babyboomer cohort reaches an average age of 65 years.
+The
+... [Show full abstract]
+residential population of Victoria, Australia, for 2001-2013 was obtained from the Australian Bureau of Statistics; car licensing statistics were obtained from VicRoads. Birth cohorts from 1916 to 1975 were defined in 10-year birth-year intervals. Population size was modeled using logistic regression. License prevalence was modeled using a logit model.
+The babyboomer cohort (1946-1965) in Victoria is 1.7 times larger than the cohort before them. At age 60 years, license prevalence among babyboomers was higher than in previous cohorts: 88% in the 1936-1945 cohort vs. 96% in the 1946-1955 cohort. When the babyboomers reach 65 years (average) in 2021, we estimate there to be over twice as many license holders among them than in the preceding cohort (n = 1,300,094 vs. 630,830, respectively).
+Aging of the babyboomer cohort will have a greater impact on the driving population than on the general population, due to the multiplicative effect of cohort size and license prevalence. The impact of road user aging on burden of injury can be minimized by focusing prevention at crashes typical to older drivers, such as intersection crashes, and promoting car safety features among older drivers.
+Read more
+Interested in research on Driving?
+Join ResearchGate to discover and stay up-to-date with the latest research from leading experts in
+Driving
+and many other scientific topics.
+Join for free
+ResearchGate iOS App
+Get it from the App Store now.
+Install
+Keep up with your stats and more
+Access scientific knowledge from anywhere
+or
+Discover by subject area
+Recruit researchers
+Join for free
+Login
+Email
+Tip:
+Most researchers use their institutional email address as their ResearchGate login
+Password
+Forgot password?
+Keep me logged in
+Log in
+or
+Continue with Google
+Welcome back! Please log in.
+Email
+· Hint
+Tip:
+Most researchers use their institutional email address as their ResearchGate login
+Password
+Forgot password?
+Keep me logged in
+Log in
+or
+Continue with Google
+No account?
+Sign up
+--- END CONTENT ---
+
+**Task**:
+1. Search the provided text for ANY description, summary, or abstract for the publication "**Ethical Issues in the New Digital Era: The Case of Assisting Driving, Ethics, Laws, and Policies for Privacy, Security, and Liability**".
+2. **IMPORTANT**: If the publication is a CHAPTER in a book, and the text contains a description of the BOOK, **extract the BOOK description** and preface it with "Book Description: ".
+3. It might be a book description, a chapter summary, or a blurb.
+4. If YES, extract it and return it (rewrite slightly if needed to be a standalone abstract).
+5. If NO (e.g. login page, completely unrelated, generic home page), return `NO_CONTENT`.
+
+**Output**:
+Return ONLY the abstract text or `NO_CONTENT`.

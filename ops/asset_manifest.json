@@ -1,0 +1,1127 @@
+[
+  {
+    "path": "app/backend/main.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "app",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 94114
+  },
+  {
+    "path": "app/backend/requirements.txt",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "app",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 60
+  },
+  {
+    "path": "app/frontend/package.json",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "app",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 891
+  },
+  {
+    "path": "app/frontend/src",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "app",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 207845
+  },
+  {
+    "path": "app/healthcheck.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "app",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4148
+  },
+  {
+    "path": "pipeline/run_pipeline.py",
+    "kind": "script",
+    "produces": [
+      "data/final/_BUILD_INFO.json"
+    ],
+    "consumes": [
+      "config/settings.local.yml",
+      "env:TRISS_*"
+    ],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 11054
+  },
+  {
+    "path": "pipeline/requirements.txt",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 157
+  },
+  {
+    "path": "pipeline/scripts/v3/0.scrape_names_from_rss.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2636
+  },
+  {
+    "path": "pipeline/scripts/v3/1.parse_rss_htmls.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 13079
+  },
+  {
+    "path": "pipeline/scripts/v3/10. aggregate_profiles_v3.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4156
+  },
+  {
+    "path": "pipeline/scripts/v3/11. crossref_doi_discovery.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 11608
+  },
+  {
+    "path": "pipeline/scripts/v3/12. crossref_doi_discovery_pass2.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 8421
+  },
+  {
+    "path": "pipeline/scripts/v3/13. crossref_doi_fix_errors.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 8803
+  },
+  {
+    "path": "pipeline/scripts/v3/14. openalex_doi_fallback.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 6829
+  },
+  {
+    "path": "pipeline/scripts/v3/15. filter_editor_appointments.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2875
+  },
+  {
+    "path": "pipeline/scripts/v3/16. split_by_doi.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1743
+  },
+  {
+    "path": "pipeline/scripts/v3/17. collect_abstracts_doi.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 8096
+  },
+  {
+    "path": "pipeline/scripts/v3/18. collect_abstracts_semanticscholar.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4972
+  },
+  {
+    "path": "pipeline/scripts/v3/19. combine_missing_abstracts.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2563
+  },
+  {
+    "path": "pipeline/scripts/v3/20. scrape_abstracts_web.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 6923
+  },
+  {
+    "path": "pipeline/scripts/v3/21. test_selenium_extraction.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2623
+  },
+  {
+    "path": "pipeline/scripts/v3/22. test_seleniumbase_uc.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2611
+  },
+  {
+    "path": "pipeline/scripts/v3/23. scrape_abstracts_seleniumbase.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 6997
+  },
+  {
+    "path": "pipeline/scripts/v3/24. scrape_abstracts_parallel.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 13256
+  },
+  {
+    "path": "pipeline/scripts/v3/25. test_google_scaling.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 9548
+  },
+  {
+    "path": "pipeline/scripts/v3/26. scrape_url_tara_single.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 6542
+  },
+  {
+    "path": "pipeline/scripts/v3/27. autonomous_scrape_robust.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 9268
+  },
+  {
+    "path": "pipeline/scripts/v3/28. backfill_from_final.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 6099
+  },
+  {
+    "path": "pipeline/scripts/v3/29. backfill_from_full_merged.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 5940
+  },
+  {
+    "path": "pipeline/scripts/v3/3. json_to_csv.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 5254
+  },
+  {
+    "path": "pipeline/scripts/v3/30. remove_empty_rows.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1240
+  },
+  {
+    "path": "pipeline/scripts/v3/31. merge_abstracts_final.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2021
+  },
+  {
+    "path": "pipeline/scripts/v3/32. add_main_url.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 5350
+  },
+  {
+    "path": "pipeline/scripts/v3/33. post_hoc_url_fix.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4875
+  },
+  {
+    "path": "pipeline/scripts/v3/34. process_books_other.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 7327
+  },
+  {
+    "path": "pipeline/scripts/v3/35. scrape_books_selenium_llm.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 5742
+  },
+  {
+    "path": "pipeline/scripts/v3/36. scrape_books_web_search.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 11739
+  },
+  {
+    "path": "pipeline/scripts/v3/4. count_pub_types.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1010
+  },
+  {
+    "path": "pipeline/scripts/v3/5. extract_year_llm.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4255
+  },
+  {
+    "path": "pipeline/scripts/v3/6. extract_authors_title_llm.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 8711
+  },
+  {
+    "path": "pipeline/scripts/v3/7. extract_authors_title_openai_batch.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 11695
+  },
+  {
+    "path": "pipeline/scripts/v3/7b. extract_authors_title_openai_cleanup.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4087
+  },
+  {
+    "path": "pipeline/scripts/v3/8. filter_and_count_2019.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2387
+  },
+  {
+    "path": "pipeline/scripts/v3/9. filter_pub_types.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1899
+  },
+  {
+    "path": "pipeline/scripts/v3/98. propagate_article_ids.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 5991
+  },
+  {
+    "path": "pipeline/scripts/v3/99.testing_book_recovery.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4309
+  },
+  {
+    "path": "pipeline/scripts/v3/_old/11. openalex_doi_discovery.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 10519
+  },
+  {
+    "path": "pipeline/scripts/v3/clean_reconcile_publications.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 7038
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_abstract_stats.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2043
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_crossref.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 3402
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_detailed_analysis.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 5157
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_entry_1.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2919
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_google_search.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1964
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_ids.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1357
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_openalex.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1893
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_openalex_filter.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1529
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_propagation.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2365
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_scrape_filter.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1358
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_scrape_text.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1347
+  },
+  {
+    "path": "pipeline/scripts/v3/debug_verify_fix_entry_1.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 5437
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/1. create_text_embeddings.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 3561
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/2. compute_similarities.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4897
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/3. run_semantic_clustering.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 12608
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/3. run_semantic_clustering_10_topics.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 11086
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/3. run_semantic_clustering_mpnet.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 13040
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/3. run_semantic_clustering_mpnet_20_topics.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 11216
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/4. visualise_clusters.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 11935
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/5. run_stage2_macro_themes.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 23248
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/6. run_stage3_policy_domains.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 14986
+  },
+  {
+    "path": "pipeline/scripts/v3/embeddings/6b. run_stage3_cluster_linking.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 9770
+  },
+  {
+    "path": "pipeline/scripts/v3/generate_counts.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1899
+  },
+  {
+    "path": "pipeline/scripts/v3/generate_structured_json.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 7895
+  },
+  {
+    "path": "pipeline/scripts/v3/report/4. create_descriptive_tables.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 7956
+  },
+  {
+    "path": "pipeline/scripts/v3/report/5. create_pub_types_table.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2601
+  },
+  {
+    "path": "pipeline/scripts/v3/report/6. create_distilled_synthesis.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 3511
+  },
+  {
+    "path": "pipeline/scripts/v3/report/7. generate_themes_latex.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 4197
+  },
+  {
+    "path": "pipeline/scripts/v3/report/check_counts.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1712
+  },
+  {
+    "path": "pipeline/scripts/v3/report/debug_discrepancy.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1848
+  },
+  {
+    "path": "pipeline/scripts/v3/report/debug_json.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 711
+  },
+  {
+    "path": "pipeline/scripts/v3/verify_2e.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "pipeline",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 415
+  },
+  {
+    "path": "config/settings.example.yml",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 555
+  },
+  {
+    "path": "config/settings.local.yml",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": true,
+    "size_bytes": 317
+  },
+  {
+    "path": "config/settings.render.yml",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 213
+  },
+  {
+    "path": "ops/build.sh",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 436
+  },
+  {
+    "path": "ops/start.sh",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 526
+  },
+  {
+    "path": "ops/render.yaml",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 1509
+  },
+  {
+    "path": "ops/check_artifact_limits.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2046
+  },
+  {
+    "path": "ops/size_report.md",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 9257
+  },
+  {
+    "path": "ops/size_report.csv",
+    "kind": "config",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 108586
+  },
+  {
+    "path": "data/README.md",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 2835
+  },
+  {
+    "path": "data/final/profiles/1. profiles_summary.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/profiles/4. triss_researcher_summary.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/network/7.researcher_similarity_matrix.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/network/8. user_to_other_publication_similarity_openai.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": false,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/publications/4.All measured publications.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/publications/3. All listed publications 2019 +.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/global_cluster_descriptions.json",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/global_cluster_assignments.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/global_cluster_centroids.npy",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/global_umap_coordinates.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/global_publication_umap_coordinates.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/stage3/policy_domains_metadata.json",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/stage3/global_cluster_policy_weights.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global/stage3/researcher_policy_weights.csv",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/schools",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/analysis/global_mpnet",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/embeddings/v3/mpnet/by_researcher",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/embeddings/v3/mpnet/by_publication",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": false,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/embeddings/v3/openai/by_researcher",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/report/report.pdf",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "data/final/_BUILD_INFO.json",
+    "kind": "data",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 0
+  },
+  {
+    "path": "tests/smoke/test_data_contract.py",
+    "kind": "script",
+    "produces": [],
+    "consumes": [],
+    "used_by": "both",
+    "must_ship_to_server": true,
+    "sensitive": false,
+    "size_bytes": 3564
+  }
+]

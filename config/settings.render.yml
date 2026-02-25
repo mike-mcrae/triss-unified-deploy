@@ -1,0 +1,5 @@
+# Example Render values (prefer environment variables in Render dashboard)
+TRISS_ENV: render
+TRISS_DATA_DIR: /var/data
+TRISS_QUERY_EMBED_MODEL: all-mpnet-base-v2
+TRISS_CORS_ORIGINS: https://<your-frontend-domain>

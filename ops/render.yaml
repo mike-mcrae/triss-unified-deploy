@@ -1,0 +1,53 @@
+services:
+  - type: web
+    name: triss-unified-backend
+    env: python
+    rootDir: .
+    buildCommand: pip install -r app/backend/requirements.txt
+    startCommand: bash ops/start.sh
+    envVars:
+      - key: TRISS_ENV
+        value: render
+      - key: TRISS_DATA_DIR
+        value: /var/data
+      - key: TRISS_QUERY_EMBED_MODEL
+        value: all-mpnet-base-v2
+      - key: TRISS_CORS_ORIGINS
+        value: https://triss-unified-frontend.onrender.com
+    disk:
+      name: triss-unified-data
+      mountPath: /var/data
+      sizeGB: 20
+
+  - type: static
+    name: triss-unified-frontend
+    env: static
+    rootDir: app/frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE
+        value: https://triss-unified-backend.onrender.com/api
+
+  - type: cron
+    name: triss-unified-pipeline-sync
+    env: python
+    rootDir: .
+    schedule: "0 3 * * 0"
+    buildCommand: pip install -r app/backend/requirements.txt
+    startCommand: python pipeline/run_pipeline.py --only sync_profiles,sync_network,sync_publications,sync_analysis,sync_embeddings,sync_report,build_info
+    envVars:
+      - key: TRISS_ENV
+        value: render
+      - key: TRISS_DATA_DIR
+        value: /var/data
+      - key: TRISS_SOURCE_SHARED_DATA_DIR
+        sync: false
+      - key: TRISS_SOURCE_PIPELINE_DIR
+        sync: false
+      - key: TRISS_SOURCE_REPORT_DIR
+        sync: false
+    disk:
+      name: triss-unified-data
+      mountPath: /var/data
+      sizeGB: 20
