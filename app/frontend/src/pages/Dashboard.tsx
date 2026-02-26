@@ -63,7 +63,7 @@ const Dashboard: React.FC = () => {
             <section className="content-card dashboard-identity">
                 <h2 className="section-title">About TRISS</h2>
                 <p className="identity-text dashboard-identity-intro">
-                    TRISS is an interdisciplinary research centre at Trinity College Dublin focused on strengthening democratic
+                    TRISS (Trinity Research in Social Sciences) is an interdisciplinary research centre at Trinity College Dublin focused on strengthening democratic
                     governance, advancing inclusive social systems, and supporting sustainable economic and technological
                     development. Drawing expertise from Business, Social Sciences, Education, Law, Religion, Psychology, Social
                     Policy, and Linguistics, TRISS addresses complex societal challenges through integrated research across five
