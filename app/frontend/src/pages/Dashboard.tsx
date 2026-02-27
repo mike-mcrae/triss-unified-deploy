@@ -76,16 +76,13 @@ const Dashboard: React.FC = () => {
                     Policy, and Linguistics, TRISS addresses complex societal challenges through integrated research across five
                     core policy domains:
                 </p>
-                <div className="dashboard-domain-block">
-                    <p className="dashboard-domain-title">Core Policy Domains</p>
-                    <div className="dashboard-domain-grid">
-                        {policyDomains.map((domain, index) => (
-                            <article key={domain} className="dashboard-domain-card">
-                                <span className="dashboard-domain-index">{String(index + 1).padStart(2, '0')}</span>
-                                <h3>{domain}</h3>
-                            </article>
-                        ))}
-                    </div>
+                <div className="dashboard-domain-grid">
+                    {policyDomains.map((domain, index) => (
+                        <article key={domain} className="dashboard-domain-card">
+                            <span className="dashboard-domain-index">{String(index + 1).padStart(2, '0')}</span>
+                            <h3>{domain}</h3>
+                        </article>
+                    ))}
                 </div>
                 <p className="identity-text dashboard-identity-impact">
                     TRISS produces analytically rigorous and policy-relevant research that informs institutional reform,
