@@ -8,6 +8,13 @@ import '../styles/dashboard.css';
 const Dashboard: React.FC = () => {
     const [data, setData] = useState<ReportOverviewV3 | null>(null);
     const [loading, setLoading] = useState(true);
+    const policyDomains = [
+        'Democratic Governance & Regulatory Systems',
+        'Economic Policy & Sustainable Development',
+        'Health & Mental Health Systems',
+        'Social Protection, Welfare & Peacebuilding',
+        'Inclusive Education & Integration',
+    ];
 
     useEffect(() => {
         fetchReportV3Overview()
@@ -72,11 +79,12 @@ const Dashboard: React.FC = () => {
                 <div className="dashboard-domain-block">
                     <p className="dashboard-domain-title">Core Policy Domains</p>
                     <div className="dashboard-domain-grid">
-                        <span>Democratic Governance &amp; Regulatory Systems</span>
-                        <span>Economic Policy &amp; Sustainable Development</span>
-                        <span>Health &amp; Mental Health Systems</span>
-                        <span>Social Protection, Welfare &amp; Peacebuilding</span>
-                        <span>Inclusive Education &amp; Integration</span>
+                        {policyDomains.map((domain, index) => (
+                            <article key={domain} className="dashboard-domain-card">
+                                <span className="dashboard-domain-index">{String(index + 1).padStart(2, '0')}</span>
+                                <h3>{domain}</h3>
+                            </article>
+                        ))}
                     </div>
                 </div>
                 <p className="identity-text dashboard-identity-impact">
