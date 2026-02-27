@@ -1,4 +1,4 @@
-const API_BASE = (import.meta.env.VITE_API_BASE as string | undefined) || 'http://localhost:8000/api';
+const API_BASE = (import.meta.env.VITE_API_BASE as string | undefined) || '/api';
 
 export interface ResearcherProfile {
     n_id: number;
