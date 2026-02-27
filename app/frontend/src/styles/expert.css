@@ -195,3 +195,18 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 640px) {
+  .expert-query-row {
+    gap: 0.45rem;
+  }
+
+  .expert-submit-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .expert-search-suggest .search-dropdown {
+    max-height: 260px;
+  }
+}

@@ -528,3 +528,66 @@
   margin: 0 auto;
   max-height: calc(100vh - 2rem);
 }
+
+@media (max-width: 820px) {
+  .report-overview-hero {
+    text-align: left;
+  }
+
+  .report-overview-hero h2 {
+    font-size: 1.45rem;
+  }
+
+  .report-overview-hero p {
+    margin: 0.25rem 0 0;
+    font-size: 0.95rem;
+  }
+
+  .report-nav {
+    gap: 0.45rem;
+  }
+
+  .report-tab {
+    padding: 0.38rem 0.58rem;
+    font-size: 0.82rem;
+  }
+
+  .report-pdf-link {
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .report-inline-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .report-bar-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .report-bar-track {
+    order: 3;
+  }
+
+  .report-bar-value {
+    order: 2;
+    justify-self: flex-start;
+  }
+
+  .report-key-grid,
+  .report-schools-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .report-floating-overlay {
+    padding: 0.75rem;
+  }
+
+  .report-floating-modal {
+    max-height: calc(100dvh - 1.5rem);
+  }
+}

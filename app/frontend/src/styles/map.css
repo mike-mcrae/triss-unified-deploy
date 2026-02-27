@@ -453,6 +453,16 @@
 }
 
 @media (max-width: 1080px) {
+  .atlas-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .atlas-counts {
+    text-align: left;
+    width: 100%;
+  }
+
   .atlas-main {
     grid-template-columns: 1fr;
   }
@@ -464,5 +474,63 @@
   .atlas-map-card {
     height: 60vh;
     min-height: 420px;
+  }
+}
+
+@media (max-width: 760px) {
+  .atlas-shell {
+    gap: 1rem;
+  }
+
+  .atlas-count-number {
+    font-size: 1.55rem;
+  }
+
+  .atlas-panel {
+    padding: 0.85rem;
+  }
+
+  .atlas-toggle-row {
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .atlas-map-card {
+    height: 54vh;
+    min-height: 320px;
+  }
+
+  .atlas-reset {
+    right: 0.55rem;
+    top: 0.55rem;
+    padding: 0.38rem 0.58rem;
+    font-size: 0.78rem;
+  }
+
+  .atlas-legend {
+    padding: 0.7rem 0.75rem;
+  }
+
+  .atlas-legend-list {
+    max-height: 180px;
+  }
+
+  .atlas-tooltip {
+    max-width: min(260px, 90vw);
+    font-size: 0.78rem;
+    padding: 0.7rem 0.75rem;
+  }
+
+  .atlas-detail-card {
+    position: static;
+    width: 100%;
+    max-height: none;
+    margin-top: 0.6rem;
+    padding: 0.8rem 0.9rem;
+  }
+
+  .atlas-topic-card-header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
